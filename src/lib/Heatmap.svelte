@@ -1,9 +1,9 @@
 <script lang="ts">
 	import events from '$lib/data.json';
+    import Month from './Month.svelte';
 	const eventKeys = Object.keys(events);
 
 	const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-	const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 
 	const startDate = new Date('2017-03-08');
 	const endDate = new Date();
@@ -16,7 +16,8 @@
 	const pointer = startDate;
 	while (pointer.valueOf() < endDate.valueOf()) {
 		dates.push(new Date(pointer.getTime()));
-		pointer.setDate(pointer.getDate() + 1);
+		pointer.setDate(pointer.getUTCDate() + 1);
+		pointer.setHours(0, 0, 0); // Prevents skipping of days.
 	}
 	console.log(dates);
 </script>
@@ -29,12 +30,16 @@
 
 	<!-- Each little square -->
 {#each dates as date, i}
-	{#if date.getUTCDate() === 1 || i === 0}
-	<h2 class="month" style="grid-column:1/{date.getUTCDay() === 0 ? 8 : (date.getUTCDay() + 1)}">
-		{MONTHS[date.getUTCMonth()].slice(0, 3)}<br>{date.getUTCFullYear()}
-	</h2>
+	{#if (date.getUTCDay() === 0 && date.getUTCDate() === 1)	|| i === 0 }
+	<Month date={date}/>
+	{:else if (date.getUTCDay() === 0) && (new Date(date.valueOf() + 518_400_000).getUTCMonth() !== date.getUTCMonth())}
+	<Month date={new Date(date.valueOf() + 518_400_000)}/>
 	{/if}
-	<div class="date {eventKeys.includes(date.toISOString().slice(0, 10)) ? 'event' : '' }" data-date="{format(date)}"></div>
+	<div
+		class="date {eventKeys.includes(date.toISOString().slice(0, 10)) ? 'event' : '' } {date.getUTCDay() === 0 ? 'sunday' : ''}"
+		data-date="{date.toISOString().slice(0, 10)}">
+	</div>
+	<!-- Otherwise, wait until the next sunday before displaying the next month -->
 {/each}
 
 <footer>That's all for now!</footer>
@@ -47,7 +52,7 @@
 	max-width: 24em;
 
 	display: grid;
-	grid: auto-flow / repeat(7, minmax(0, 1fr));
+	grid: auto-flow / 1fr repeat(7, minmax(0, 1fr));
 	gap: 0.33ch;
 	padding: 2.5em
 }
@@ -56,14 +61,6 @@
 	grid-column: 1/8;
 	text-align: center;
 	padding: 1em;
-}
-
-.month {
-	margin: 0;
-	display: flex;
-	align-items: center;
-	line-height: 1;
-	font-size: 1em;
 }
 
 .day {
@@ -75,6 +72,14 @@
 	font-weight: 800;
 	background: #fffc;
 	z-index: 2;
+}
+
+.day:nth-child(1), .date.sunday {
+	grid-column-start: 2;
+}
+
+.date[data-date="2017-03-08"] {
+	grid-column-start: 5;
 }
 
 .date {
