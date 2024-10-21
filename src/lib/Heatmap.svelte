@@ -1,8 +1,17 @@
 <script lang="ts">
-	const startDate = new Date('2017-08-03');
-	const endDate = new Date();
+	import events from '$lib/data.json';
+	const eventKeys = Object.keys(events);
+
 	const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+	const startDate = new Date('2017-03-08');
+	const endDate = new Date();
 	const dates: Date[] = [];
+
+	const {format} = new Intl.DateTimeFormat(undefined, {
+		timeZone: 'UTC',
+	});
 
 	const pointer = startDate;
 	while (pointer.valueOf() < endDate.valueOf()) {
@@ -13,12 +22,19 @@
 </script>
 
 <div id="heatmap">
+	<!-- Days of the week -->
 {#each DAYS as day}
 	<p class="day">{day.charAt(0)}</p>
 {/each}
 
-{#each dates as date}
-	<div class="date" data-date="{date.toUTCString()}" ></div>
+	<!-- Each little square -->
+{#each dates as date, i}
+	{#if date.getUTCDate() === 1 || i === 0}
+	<h2 class="month" style="grid-column:1/{date.getUTCDay() === 0 ? 8 : (date.getUTCDay() + 1)}">
+		{MONTHS[date.getUTCMonth()].slice(0, 3)}<br>{date.getUTCFullYear()}
+	</h2>
+	{/if}
+	<div class="date {eventKeys.includes(date.toISOString().slice(0, 10)) ? 'event' : '' }" data-date="{format(date)}"></div>
 {/each}
 
 <footer>That's all for now!</footer>
@@ -27,11 +43,12 @@
 <style>
 #heatmap {
 	overflow: visible auto;
-	min-width: 25%;
+	min-width: 20%;
+	max-width: 24em;
 
 	display: grid;
-	grid: auto-flow / repeat(7, 1fr);
-	gap: 0.5ch;
+	grid: auto-flow / repeat(7, minmax(0, 1fr));
+	gap: 0.33ch;
 	padding: 2.5em
 }
 
@@ -41,6 +58,14 @@
 	padding: 1em;
 }
 
+.month {
+	margin: 0;
+	display: flex;
+	align-items: center;
+	line-height: 1;
+	font-size: 1em;
+}
+
 .day {
 	position: sticky;
 	top: 0;
@@ -48,12 +73,14 @@
 	width: 100%;
 	text-align: center;
 	font-weight: 800;
+	background: #fffc;
+	z-index: 2;
 }
 
 .date {
 	aspect-ratio: 1;
 	/* /* height: 1em; */
-	border: 2px solid black;
+	background: #0002;
 	position: relative;
 }
 
@@ -64,7 +91,7 @@
 .date:hover::after {
 	display: block;
 	position: absolute;
-	z-index: 2;
+	z-index: 3;
 	content: attr(data-date);
 	bottom: 110%;
 	left: 50%; transform: translate(-50%, 0);
@@ -75,21 +102,7 @@
 	padding: 0.5ch;
 }
 
-/* Release date was a Thursday. */
-.date:nth-child(8) {
-	background: yellow;
-	grid-column-start: 5;
+.event {
+	background: gold;
 }
 </style>
-
-<!--
-<table>
-	<tbody>
-		<tr>
-			<td>
-
-			</td>
-		</tr>
-	</tbody>
-</table>
--->

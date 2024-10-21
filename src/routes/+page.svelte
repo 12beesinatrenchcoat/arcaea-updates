@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Heatmap from '$lib/Heatmap.svelte';
 </script>
 
@@ -9,5 +9,12 @@
 	<p>(In heatmap form.)</p>
 	<p>Some text goes here</p>
 
-	<p>Data sourced from <a href="https://arcaea.fandom.com/wiki/Update_History">the Arcaea Wiki</a> and <a href="https://x.com/arcaea_en/">@arcaea_en on Twitter (currently X)</a>.</p>
+	<fieldset>
+		<legend>WARNING</legend>
+		<p>This is very work in progress. Functionality is missing, design isn't final, etc.</p>
+	</fieldset>
+
+	<p>Data sourced from <a href="https://arcaea.fandom.com/wiki/Update_History">the Arcaea Wiki</a>.</p>
+	<p>This project is neither affiliated with or endorsed by lowiro.</p>
+	<p>The source code for this website is available <a href="https://github.com/12beesinatrenchcoat/arcaea-updates">here</a>.</p>
 </div>
