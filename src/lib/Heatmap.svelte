@@ -34,7 +34,7 @@
 	<!-- Each little square -->
 {#each dates as date, i}
 	<!-- Do we display a month on the side? -->
-	{#if (date.getUTCDay() === 0 && date.getUTCDate() === 1)	|| i === 0 }
+	{#if (date.getUTCDay() === 0 && date.getUTCDate() === 1) || i === 0 }
 	<Month date={date}/>
 	{:else if (date.getUTCDay() === 0) && (new Date(date.valueOf() + 518_400_000).getUTCMonth() !== date.getUTCMonth())}
 	<Month date={new Date(date.valueOf() + 518_400_000)}/>
@@ -60,25 +60,31 @@
 }
 #heatmap {
 	overflow: visible auto;
-	min-width: 20%;
-	max-width: 48em;
+	max-width: 100vw;
 
 	display: grid;
-	grid: auto-flow / 1fr repeat(7, minmax(0, 1fr));
+	grid: 1fr repeat(7, minmax(0, 1fr)) / auto-flow;
+	grid-auto-flow: column;
 	gap: 0.33ch;
-	padding: 2.5em
+	padding: 2em;
 }
 
 #heatmap > footer {
-	grid-column: 1/8;
+	display: flex;
+	align-items: center;
+	grid-row: 1/10;
 	text-align: center;
-	padding: 1em;
+	width: 12ch;
+	padding: 2em;
 }
 
 .day {
 	position: sticky;
-	top: 0;
-	margin: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	left: 0;
+	margin: 0 0.5ch;
 	width: 100%;
 	text-align: center;
 	font-weight: 800;
@@ -87,15 +93,16 @@
 }
 
 .day:nth-child(1), .date.sunday {
-	grid-column-start: 2;
+	grid-row-start: 2;
 }
 
 .date[data-date="2017-03-08"] {
-	grid-column-start: 5;
+	grid-row-start: 5;
 }
 
 .date {
 	aspect-ratio: 1;
+	min-width: 2.25em;
 	background: #0001;
 	position: relative;
 	display: flex;

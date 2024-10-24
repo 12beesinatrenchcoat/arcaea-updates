@@ -13,7 +13,8 @@
 	display: flex;
 	align-items: center;
 	line-height: 1;
-	font-size: 1em;
-	grid-column-start: 1;
+	font-size: 0.8em;
+	max-width: 100%;
+	grid-row-start: 1;
 }
 </style>

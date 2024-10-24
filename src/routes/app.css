@@ -1,8 +1,10 @@
 body {
 	background: lightgrey;
 	margin: 0 2em;
-	max-height: 100vh;
+	height: 100vh;
 	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
 	font-family: "Titillium Web", sans-serif;
 }
 

@@ -18,3 +18,10 @@
 	<p>This project is neither affiliated with or endorsed by lowiro.</p>
 	<p>The source code for this website is available <a href="https://github.com/12beesinatrenchcoat/arcaea-updates">here</a>.</p>
 </div>
+
+<style>
+	#text {
+		max-height: 50vh;
+		overflow-y: auto
+	}
+</style>
