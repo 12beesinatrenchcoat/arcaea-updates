@@ -1,17 +1,19 @@
 <script lang="ts">
-	import events from '$lib/data.json';
+	import untypedEvents from '$lib/data.json';
+	const events: {[key: string]: {
+		version: string,
+		type?: string,
+		short?: string,
+		contents?: string[]
+	}} = untypedEvents;
+
     import Month from './Month.svelte';
-	const eventKeys = Object.keys(events);
 
 	const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
 	const startDate = new Date('2017-03-08');
-	const endDate = new Date();
-	const dates: Date[] = [];
-
-	const {format} = new Intl.DateTimeFormat(undefined, {
-		timeZone: 'UTC',
-	});
+	const endDate = new Date().setDate(new Date().getUTCDate());
+	const dates: Date[] = []; // Every single Date square
 
 	const pointer = startDate;
 	while (pointer.valueOf() < endDate.valueOf()) {
@@ -19,7 +21,8 @@
 		pointer.setDate(pointer.getUTCDate() + 1);
 		pointer.setHours(0, 0, 0); // Prevents skipping of days.
 	}
-	console.log(dates);
+
+	const shortISO = (date: Date) => date.toISOString().slice(0, 10);
 </script>
 
 <div id="heatmap">
@@ -30,26 +33,35 @@
 
 	<!-- Each little square -->
 {#each dates as date, i}
+	<!-- Do we display a month on the side? -->
 	{#if (date.getUTCDay() === 0 && date.getUTCDate() === 1)	|| i === 0 }
 	<Month date={date}/>
 	{:else if (date.getUTCDay() === 0) && (new Date(date.valueOf() + 518_400_000).getUTCMonth() !== date.getUTCMonth())}
 	<Month date={new Date(date.valueOf() + 518_400_000)}/>
 	{/if}
+
+	<!-- The date block itself -->
 	<div
-		class="date {eventKeys.includes(date.toISOString().slice(0, 10)) ? 'event' : '' } {date.getUTCDay() === 0 ? 'sunday' : ''}"
-		data-date="{date.toISOString().slice(0, 10)}">
+		class="date {events[shortISO(date)]?.type} {date.getUTCDay() === 0 ? 'sunday' : ''}"
+		data-date="{shortISO(date)}">
+		{events[shortISO(date)]?.short}
 	</div>
-	<!-- Otherwise, wait until the next sunday before displaying the next month -->
 {/each}
 
 <footer>That's all for now!</footer>
 </div>
 
 <style>
+:root {
+	--blue: #6be;
+	--green: #6c4;
+	--purple: #B470C9;
+	--red: #f44;
+}
 #heatmap {
 	overflow: visible auto;
 	min-width: 20%;
-	max-width: 24em;
+	max-width: 48em;
 
 	display: grid;
 	grid: auto-flow / 1fr repeat(7, minmax(0, 1fr));
@@ -84,9 +96,11 @@
 
 .date {
 	aspect-ratio: 1;
-	/* /* height: 1em; */
-	background: #0002;
+	background: #0001;
 	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .date::after {
@@ -107,7 +121,21 @@
 	padding: 0.5ch;
 }
 
-.event {
-	background: gold;
+.date.major, .date.main {
+	background: linear-gradient(var(--blue), var(--purple)) !important;
+	box-shadow: 0 0 0.5ch var(--blue);
 }
+
+.date.minor, .date.side, .date.collab {
+	background: var(--purple) !important;
+}
+
+.date.songs {
+	background: var(--green) !important;
+}
+
+.date.patch {
+	background: white;
+}
+
 </style>
