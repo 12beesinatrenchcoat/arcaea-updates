@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Heatmap from '$lib/Heatmap.svelte';
+	import Stats from '$lib/Stats.svelte';
 </script>
 
 <Heatmap />
@@ -13,6 +14,8 @@
 		<legend>WARNING</legend>
 		<p>This is very work in progress. Functionality is missing, design isn't final, etc.</p>
 	</fieldset>
+
+	<Stats/>
 
 	<p>Data sourced from <a href="https://arcaea.fandom.com/wiki/Update_History">the Arcaea Wiki</a>.</p>
 	<p>This project is neither affiliated with or endorsed by lowiro.</p>
