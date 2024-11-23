@@ -1,13 +1,9 @@
 <script lang="ts">
-	import untypedEvents from '$lib/data.json';
-	const events: {[key: string]: {
-		version: string,
-		type?: string,
-		short?: string,
-		contents?: string[]
-	}} = untypedEvents;
+	import events from '$lib/Events';
+	import Month from '$lib/Month.svelte';
+	import type {Event} from './data/data';
 
-    import Month from './Month.svelte';
+	console.debug(events);
 
 	const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
@@ -23,6 +19,25 @@
 	}
 
 	const shortISO = (date: Date) => date.toISOString().slice(0, 10);
+
+	const types = ['tweet', 'patch', 'minor', 'major', 'release'];
+	const checkForEvent = (date: Date) => {
+		const isoDate = shortISO(date);
+		let highestType = '';
+		let highestEvent: Event | undefined;
+		let array;
+		if (isoDate in events) {
+			array = events[isoDate];
+			for (const event of array) {
+				if (types.indexOf(event.type) > types.indexOf(highestType)) {
+					highestType = event.type;
+					highestEvent = event;
+				}
+			}
+		}
+
+		return {highestType, highestEvent, array};
+	};
 </script>
 
 <div id="heatmap">
@@ -41,11 +56,17 @@
 	{/if}
 
 	<!-- The date block itself -->
-	<div
-		class="date {events[shortISO(date)]?.type} {date.getUTCDay() === 0 ? 'sunday' : ''}"
-		data-date="{shortISO(date)}">
-		{events[shortISO(date)]?.short}
-	</div>
+	{@const events = checkForEvent(date)}
+	<a
+		class={'date '
+		+ (date.getUTCDay() === 0 ? 'sunday ' : '')
+		+ events.highestType
+		}
+		data-date="{shortISO(date)}"
+		href="#{shortISO(date)}"
+	>
+		{events.highestEvent?.short || ''}
+	</a>
 {/each}
 
 <footer>That's all for now!</footer>
