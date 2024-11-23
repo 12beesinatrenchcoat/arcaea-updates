@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let date: Date;
-	const MONTHS = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+	const MONTHS = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 </script>
 
 	<h2 class="month">

@@ -1,10 +1,10 @@
 // Typing the .json files here.
-import untypedUpdates from '$lib/data/updates.json';
+import untypedUpdates from "$lib/data/updates.json";
 
 export type Update = {
 	version: string,
 	date: string,
-	type: string | 'major' | 'minor' | 'patch',
+	type: string | "major" | "minor" | "patch",
 	name?: string,
 	short?: string,
 	content: string[]
