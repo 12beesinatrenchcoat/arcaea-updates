@@ -1,13 +1,9 @@
 body {
 	background: lightgrey;
-	margin: 0 2em;
+	margin: 0;
 	height: 100vh;
 	display: flex;
-	flex-direction: column-reverse;
+	flex-direction: column;
 	justify-content: space-between;
 	font-family: "Titillium Web", sans-serif;
-}
-
-#text {
-	margin-left: 2ch;
 }

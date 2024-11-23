@@ -1,13 +1,14 @@
 <script lang="ts">
-	import events from '$lib/Events';
-	import Month from '$lib/Month.svelte';
-	import type {Event} from './data/data';
+	import events from "$lib/Events";
+	import Month from "$lib/Month.svelte";
+	import type {Event} from "./data/data";
+	import {selectedDate} from "./shared.svelte";
 
 	console.debug(events);
 
-	const DAYS = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+	const DAYS = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
-	const startDate = new Date('2017-03-08');
+	const startDate = new Date("2017-03-08");
 	const endDate = new Date().setDate(new Date().getUTCDate());
 	const dates: Date[] = []; // Every single Date square
 
@@ -20,10 +21,10 @@
 
 	const shortISO = (date: Date) => date.toISOString().slice(0, 10);
 
-	const types = ['tweet', 'patch', 'minor', 'major', 'release'];
+	const types = ["tweet", "patch", "fools", "minor", "collab", "side", "main"];
 	const checkForEvent = (date: Date) => {
 		const isoDate = shortISO(date);
-		let highestType = '';
+		let highestType = "";
 		let highestEvent: Event | undefined;
 		let array;
 		if (isoDate in events) {
@@ -58,14 +59,17 @@
 	<!-- The date block itself -->
 	{@const events = checkForEvent(date)}
 	<a
-		class={'date '
-		+ (date.getUTCDay() === 0 ? 'sunday ' : '')
+		class={"date "
+		+ (date.getUTCDay() === 0 ? "sunday " : "")
 		+ events.highestType
 		}
 		data-date="{shortISO(date)}"
 		href="#{shortISO(date)}"
+		onclick={() => {
+			selectedDate.date = shortISO(date);
+		}}
 	>
-		{events.highestEvent?.short || ''}
+		{events.highestEvent?.short || ""}
 	</a>
 {/each}
 
@@ -79,6 +83,11 @@
 	--purple: #B470C9;
 	--red: #f44;
 }
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
 #heatmap {
 	overflow: visible auto;
 	max-width: 100vw;
@@ -88,6 +97,8 @@
 	grid-auto-flow: column;
 	gap: 0.33ch;
 	padding: 2em;
+
+	flex-shrink: 0;
 }
 
 #heatmap > footer {
@@ -149,19 +160,22 @@
 	padding: 0.5ch;
 }
 
-.date.major, .date.main {
+.date.main{
 	background: linear-gradient(var(--blue), var(--purple)) !important;
 	box-shadow: 0 0 0.5ch var(--blue);
 }
 
-.date.minor, .date.side, .date.collab {
+.date.side, .date.collab{
 	background: var(--purple) !important;
 }
 
-.date.songs {
+.date.minor{
 	background: var(--green) !important;
 }
 
+.date.fools {
+	background: magenta !important;
+}
 .date.patch {
 	background: white;
 }

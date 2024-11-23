@@ -1,715 +1,2643 @@
 [
 	{
-		"version": "m:5.10.5",
+		"date": "2024-11-21",
+		"version": "6.0.0",
+		"content": [
+			"New Main Story Pack released: [[Lucent Historia]]:",
+			"* [[Swan Song]] // void (Mournfinale)",
+			"* [[Renegade]] // sky_delta",
+			"* [[Breach of Faith]] // Supire feat.eili",
+			"* [[Rays of Remnant]] // May × Felysrator",
+			"* [[Lament Rain]] // Ashrount vs. 打打だいず",
+			"* [[Designant.]] // Designant - \"Ascension Song\"",
+			"* [[Astral Quantization]] / DJ Grimoire - \"Terminal Song\"",
+			"8 new Main Story entries: [[Story/Lucent Historia]]",
+			"New Story Partner added:",
+			"*[[Compassion (Ascendant - 8th Seeker)/Nell]]",
+			"** Certain conditions must be met to unlock this Partner after obtaining \"Lucent Historia\".",
+			"[[Insight (Ascendant - 8th Seeker)/Lacrymira]] can now be equipped after reaching Level 20.",
+			"New Pack Append: [[O.N.G.E.K.I. Collaboration Chapter 3]]",
+			"* [[LIFTOFF]] // MAYA AKAI",
+			"* [[SUPER AMBULANCE]] // AJURIKA",
+			"* [[Don't Fight The Music]] // 黒魔",
+			"* [[And Revive The Melody]] // 黒魔",
+			"Includes 2 new Partners:",
+			"* [[Tsumugi]]",
+			"* [[Chinatsu]] (limited)",
+			"Returning Partner as part of the collaboration:",
+			"* [[Setsuna]] (limited)",
+			"[[Story]] Mode / Story Experience overhaul:",
+			"* Short Stories renamed to \"Archive Stories\".",
+			"* Stories progress towards the right, rather than upwards.",
+			"* Story Mode-exclusive Partner menu.",
+			"* Hints provided on how to trigger past Anomalies.",
+			"* Early Anomaly challenges adjusted.",
+			"* PV replayability in [[Axiom of the End]] with sealed [[Hikari (Fatalis)]].",
+			" Quality of life updates:",
+			"* The Stamina cost of a given Map shown on the Map icon.",
+			"* World Map Stamina costs adjusted.",
+			"* 0-Stamina Maps introduced.",
+			" Partner adjustments:",
+			"* [[Ayu]] is now a permanent Partner.",
+			"* [[Kanae]]'s Awakened Skill adjusted with the introduction of 0-Stamina Maps.",
+			" Chart constant adjustments:",
+			"* Various songs, primarily levels 9 to 11.",
+			" Other Updates:",
+			"* [[Absolute Nihil]] relocation",
+			"* [[World Extend]] update",
+			"** [[astral.exe]] // Synzak & Laxeno5",
+			"* Main Story Chronicle available at a discounted price."
+		],
+		"type": "main",
+		"name": "Lucent Historia",
+		"short": "LH"
+	},
+	{
+		"date": "2024-10-24",
+		"version": "5.10.6",
+		"content": [
+			"New [[Memory Archive]] songs:",
+			"* [[Dies irae]] // お月さま交響曲",
+			"* [[Spirit of the Dauntless]] // KO3 & Relect",
+			"* [[Crimson Quartz]] // DiGiTAL WiNG with 空音",
+			" New World Extend song:",
+			"* [[Prayer]] // qfeileadh&レゾナンスもえこ",
+			" New [[Crossing Pulse]] song in the [[Memory Archive]] from A Dance of Fire and Ice:",
+			"* [[Third Sun]] // Ash Astral",
+			" New Short Story for [[Mir]]/[[Shirabe]]: [[Story/Vermillion Shield|Vermillion Shield]]"
+		],
+		"type": "minor"
+	},
+	{
 		"date": "2024-09-26",
+		"version": "m:5.10.5",
+		"content": [
+			"''[[Gensou no Satellite]] song background fixed from vs_conflict to touhou_conflict''"
+		],
 		"type": "patch"
 	},
 	{
+		"date": "2024-09-26",
 		"version": "5.10.4",
-		"date": "2024-09-26"
+		"content": [
+			"New [[Memory Archive]] song:",
+			"* [[Gensou no Satellite]] // 豚乙女",
+			"New [[World Extend 3]] song:",
+			"* [[Hailstone]] // Kazki Misora",
+			"New song added to the Main Story Pack [[Adverse Prelude]]:",
+			"* [[Saint or Sinner]] // crayvxn",
+			"New [[Crossing Pulse]] song in [[World Extend 3]] from TETOTE CONNECT:",
+			"* [[FURETE-MITAI]] // みきとP",
+			"''[[Particle Arts]] removed from playable song list''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-09-12",
 		"version": "5.10.2",
-		"date": "2024-09-12"
+		"content": [
+			"New [[Memory Archive]] song:",
+			"* [[Rain of Conflict in a Radiant Abyss]] // ak+q (free in World Mode with ownership of [[Eternal Core]] until 9/26)",
+			"''Correction of Story numbering for [[Story/Rotaeno]]''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-08-30",
 		"version": "m:5.10.1",
-		"date": "2024-08-30"
+		"content": [
+			"''Bug fixes''",
+			"*''Fixed an issue where the app crashes after achieving Linked Full Recall or Pure Memory in Link Play''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-08-29",
 		"version": "5.10.0",
-		"date": "2024-08-29"
+		"content": [
+			"New Collaboration Pack: [[Rotaeno Collaboration]]",
+			"* 5 songs:",
+			"** [[Waltz for Lorelei]] // Sobrem & 庭師",
+			"** [[Inverted World]] // ARForest",
+			"** [[Dual Doom Deathmatch]] // Kobaryo vs HyuN",
+			"** [[MVURBD]] // ETIA.",
+			"** [[Vulcānus]] // Team Grimoire vs Aoi (Collaboration original)",
+			"* New Partner: [[Luna & Ilot]]",
+			"* New limited Partner: [[Eto & Hoppe]]",
+			"* New collaboration Short Story: [[Story/Rotaeno]]",
+			"New [[World Extend 3]] song from Rotaeno:",
+			"* [[epitaxy]] // Camellia",
+			"Significant updates to [[Link Play]]: public matching, Partner stickers, vote-based and time-limited song select options, friend invitations, Linked FR/PM status, UI improvements, and further additions",
+			"UI changes:",
+			"* Glowing sparkle effect now appears after achieving Full Recall/Pure Memory"
+		],
+		"type": "collab",
+		"name": "Rotaeno Collaboration",
+		"short": "Rot"
 	},
 	{
+		"date": "2024-08-06",
 		"version": "m:5.9.3",
-		"date": "2024-08-06"
+		"content": [
+			"''Awakened [[Saya]]'s skill now activates in [[ALTER EGO]]''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-07-30",
 		"version": "m:5.9.1",
-		"date": "2024-07-30"
+		"content": [
+			"''Fixed text display issue during [[ALTER EGO]] unlock''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-07-30",
 		"version": "5.9.0",
-		"date": "2024-07-30"
+		"content": [
+			"New Side Story Pack: [[Absolute Nihil]]",
+			"* 5 new songs:",
+			"** [[In Vain]] // ryhki",
+			"** [[Hypnotize]] // rejection",
+			"** [[Ashen 6oundary]] // YUKIYANAGI",
+			"** [[Judgement]] // Tatsunoshin",
+			"** [[ALTER EGO]] // Yuta Imai vs Qlarabelle",
+			"* New Side Story: [[Story/Absolute Nihil|Absolute Nihil]]",
+			"* Awakening added for [[Saya]]",
+			"New [[World Extend 3]] song:",
+			"* [[Distortion Human]] // DJ Myosuke & KAJI",
+			"New [[Crossing Pulse]] song in the [[Memory Archive]] from MUSIC DIVER:",
+			"* [[shrink]] // Shohei Tsuchiya(ZUNTATA)",
+			"''Minor story text adjustment''"
+		],
+		"type": "side",
+		"name": "Absolute Nihil",
+		"short": "AN"
 	},
 	{
+		"date": "2024-07-03",
 		"version": "m:5.8.1",
-		"date": "2024-07-03"
+		"content": [
+			"''Bug fixes''",
+			"*''Updated [[Groove Coaster Collaboration Chapter 2]] song jackets to add transparencies to the Groove Coaster logo''",
+			"*''Fixed [[Hikari & Seine]]'s skill to activate during [[Groove Coaster Collaboration Chapter 2]] songs and [[Aurgelmir]]''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-06-27",
 		"version": "5.8.0",
-		"date": "2024-06-27"
+		"content": [
+			"New Pack Append: [[Groove Coaster Collaboration Chapter 2]]",
+			"* [[Sign of \"10.5km\"]] // 渡部恭久",
+			"* [[10pt8ion]] // Lite Show Magic",
+			"* [[Black MInD]] // COSIO",
+			"New original [[Memory Archive]] song:",
+			"* [[HYPER VISION]] // VOLTA",
+			"New [[Crossing Pulse]] song in the [[Memory Archive]] from Sixtar Gate: STARTRAIL:",
+			"* [[STARGATE EXTREME]] // KARUT",
+			"New extension to [[Vita]]'s story: [[Story/Unseeing Eyes|Unseeing Eyes]]",
+			"New CG added to the [[Story/Arcaea|Arcaea]] prologue story",
+			"Added ability to group songs by Genre in the [[Memory Archive]]"
+		],
+		"type": "collab",
+		"name": "Groove Coaster Collaboration Chapter 2",
+		"short": "Grv2"
 	},
 	{
+		"date": "2024-06-03",
 		"version": "m:5.7.1",
-		"date": "2024-06-03"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-05-30",
 		"version": "5.7.0",
-		"date": "2024-05-30"
+		"content": [
+			"New [[Memory Archive]] songs:",
+			"*[[Back to Basics]] // m1dy",
+			"*[[Beautiful Dreamer]] // M-Project",
+			"New [[World Extend 3]] song:",
+			"*[[Old School Salvage]] // DJ SHARPNEL",
+			"New free song in [[Arcaea]]:",
+			"*[[Hidden Rainbows of Epicurus]] // SYNC.ART'S feat.Misato",
+			"New [[Crossing Pulse]] song in the [[Memory Archive]] from KALPA:",
+			"*[[Twilight Concerto]] // Scarlette",
+			"New in-game bonuses for [[Arcaea Online]] subscribers:",
+			"*World Boost: Gain up to 30% progress on all [[World Mode]] Plays",
+			"*Monthly Bonus: Choice of 1 random song from the [[Memory Archive]], 2 [[World_Mode_Mechanics#Memory_Boost|Memory Boost]] tickets, or 20 [[Partners#Ether_Drops|Ether Drops]]",
+			"*Profile Banners: Exclusive monthly banners to customize player profile"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-05-21",
 		"version": "m:5.6.3",
-		"date": "2024-05-21"
+		"content": [
+			"''Bug fixes''",
+			"''Improved in-song performance''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-05-07",
 		"version": "m:5.6.1",
-		"date": "2024-05-07"
+		"content": [
+			"''Bug fixes''",
+			"(13/05/2024) [[MIRINAE]] made publicly playable"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-04-26",
 		"version": "5.6.0",
-		"date": "2024-04-26"
+		"content": [
+			"New songs added to [[Crossing Pulse]] from Phigros:",
+			"*[[Distorted Fate]] / Sakuzyo (in [[Memory Archive]])",
+			"*[[Leave All Behind]]  / rider (in [[World Extend 3]])",
+			"New [[Memory Archive]] songs:",
+			"*[[Floating World]] / baker feat. botan",
+			"*[[Chromafill]] / ていぬ",
+			"*[[Désive]] / MisomyL",
+			"New extension to [[Ayu]]'s story: [[Story/Colorful Dream|Colorful Dream]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-04-02",
 		"version": "5.5.8",
-		"date": "2024-04-02"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[ultradiaxon-N3]] / nitro",
+			"New limited time Partner added:",
+			"*[[Ai-chan]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-04-01",
 		"version": "5.5.6",
-		"date": "2024-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"* [[HIVEMIND INTERLINKED]] / かたぎり",
+			"''Various bug fixes''"
+		],
+		"type": "fools"
 	},
 	{
+		"date": "2024-03-25",
 		"version": "5.5.0",
-		"date": "2024-03-25"
+		"content": [
+			"[[World Extend 3|World Extend]] is reborn with all-new songs",
+			"*5 songs added to [[World Extend 3]]:",
+			"**[[Lethal Voltage]] / siqlo",
+			"**[[MORNINGLOOM]] / saaa",
+			"**[[〇、]] / Kolaa & 熊子",
+			"**[[HELLOHELL]] / 暁Records",
+			"**New [[Crossing Pulse]] song from Paradigm: Reboot:",
+			"***[[Awaken In Ruins]] / Supa7onyz",
+			"*Previous World Extend pack is now [[Extend Archive 2|Extend Archive 2: Chronicles]]",
+			"*Previous Extend Archive pack is now [[Extend Archive 1|Extend Archive 1: Visions]]",
+			"New song added to Memory Archive (pre-release playable early to those who purchase Arcaea Sound Collection - [[Memories of Serenity]])",
+			"*[[MIRINAE]] / TAK × Zekk",
+			"New Partner added: [[Vita (Cadenza)]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-03-14",
 		"version": "m:5.4.3",
-		"date": "2024-03-14"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-03-11",
 		"version": "m:5.4.1",
-		"date": "2024-03-11"
+		"content": [
+			"''Bug fixes''",
+			"*''Fixed [[Tempestissimo]] [BYD] crashing upon starting''",
+			"''Fixed Teriqma artist alias''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-03-08",
 		"version": "5.4.0",
-		"date": "2024-03-08"
+		"content": [
+			"New difficulty added: Eternal",
+			"*Eternal difficulty added to 3 songs:",
+			"**[[Clotho and the stargazer]]",
+			"**[[Sayonara Hatsukoi]]",
+			"**[[Suomi]]",
+			"Difficulty level adjustements:",
+			"*7 → 7, 7+",
+			"*8 → 8, 8+",
+			"*Various other chart constant changes",
+			"New [[Beginner Missions]] feature",
+			"New songs added to [[Memory Archive]]:",
+			"*[[Innocence]] / Powerless feat. Sennzai",
+			"*[[Qovat]] / owl*tree",
+			"*New song added to [[Crossing Pulse]] from RESONARK:",
+			"**[[IONOSTREAM]] / Tatsh",
+			"*New songs added under [[HARDCORE TANO*C Collaboration Part 3]]:",
+			"**[[Masquerade Legion]] / Srav3R & DJ Noriken",
+			"**[[KYOREN ROMANCE]] / REDALiCE vs DJ Myosuke feat. DELUTAYA",
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[Aleph-0]] / LeaF",
+			"New song added to [[Arcaea]]:",
+			"* [[Jingle]] / DJ Noriken",
+			"Awakening enabled for [[DORO*C]]",
+			"Main Story Prologue added: \"[[Story/Arcaea|Arcaea]]\"",
+			"*3 new [[Story]] entries: [[Story/Arcaea|Arcaea]]",
+			"''Minor story text adjustment''",
+			"''Changes to World Mode Maps 1-1 and 4-2''",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 8<sup>th</sup> to March 16<sup>th</sup>, 2024",
+			"Added package system to update content without updating the app"
+		],
+		"type": "collab",
+		"name": "HARDCORE TANO*C Collaboration Part 3",
+		"short": "HTC3"
 	},
 	{
+		"date": "2024-01-26",
 		"version": "m:5.3.1",
-		"date": "2024-01-26"
+		"content": [
+			"''Bug fixes''",
+			"*''Fixed issue with [[Purple Verse]] [BYD] unlock''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-01-25",
 		"version": "5.3.0",
-		"date": "2024-01-25"
+		"content": [
+			"New World Mode chapters/mechanic: [[World Mode Data Breached Chapter 1 Mobile|Breached Chapters]]",
+			"Beyond difficulty added for 7 songs",
+			"* [[inkar-usi]] / DIA",
+			"* [[Cybernecia Catharsis]] / Tanchiky",
+			"* Beyond Chain:",
+			"** [[Libertas]] / Zekk",
+			"** [[Oblivia]] / Saiph",
+			"** [[Einherjar Joker]] / DJ Genki vs Gram",
+			"** [[Purple Verse]] / Hommarju",
+			"** [[Vicious Heroism|Vicious [ANTi] Heroism]] / Kobaryo",
+			"New song added to [[Arcaea]]:",
+			"* [[The Formula]] / Junk",
+			"New song added to [[Crossing Pulse]]:",
+			"* [[Luna Rossa]] / r0y",
+			"New Scenery map added to [[World Mode Data Lost Chapter Mobile|Lost Chapter: Beyond]]",
+			"Fragment refresh time for refilling stamina reduced from 24 to 23 hours"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2024-01-19",
 		"version": "m:5.2.7",
-		"date": "2024-01-19"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2024-01-12",
 		"version": "5.2.6",
-		"date": "2024-01-12"
+		"content": [
+			"New song added to [[Sunset Radiance]]:",
+			"* [[Hotarubi no Yuki]] / Endorfin.",
+			"Awakening enabled for [[Kanae]]",
+			"6 new Side [[Story]] entries: [[Story/Sunset Radiance|Sunset Radiance]]",
+			"''Further updates to in-game backgrounds''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-12-23",
 		"version": "m:5.2.5",
-		"date": "2023-12-23"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-12-21",
 		"version": "m:5.2.3",
-		"date": "2023-12-21"
+		"content": [
+			"''Bug fixes''",
+			"*''Fixed issue where game would crash after starting [[Aegleseeker]] or [[Lucid Traveler]]''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-12-21",
 		"version": "5.2.2",
-		"date": "2023-12-21"
+		"content": [
+			"New categorization for collaboration songs: [[Crossing Pulse]]",
+			"*New [[Crossing Pulse]] song added to [[Memory Archive]] from NOISZ STARLIVHT:",
+			"**[[LIVHT MY WΔY]] / かめりあ feat. STΔRLIVHT",
+			"New song added to [[Memory Archive]]:",
+			"*[[Kanbu de Tomatte Sugu Tokeru]] / ARM＋夕野ヨシミ (IOSYS) feat. miko",
+			"2 new songs added to [[Extend Archive 2|World Extend]]:",
+			"*[[felys final remix]] / onoken",
+			"*[[On And On!! feat. Jenga]] / ETIA."
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-11-30",
 		"version": "5.2.0",
-		"date": "2023-11-30"
+		"content": [
+			"New Pack Append added to [[WACCA Collaboration]]: [[WACCA Collaboration Chapter 2]]",
+			"*[[Stratoliner]] / C-Show",
+			"*[[Ouvertüre]] / USAO & DJ Genki feat. ルーン(CV:河瀬茉希)",
+			"*[[XTREME]] / USAO",
+			"*[[eden]] / \"漆黒\"の堕天使《Gram》†Versus†\"聖刻\"の熾天使《Gram》",
+			"*[[Meta-Mysteria]] / DJ Noriken",
+			"New limited collaboration Partner added:",
+			"*[[Luin]]",
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[Alone & Lorn]] / Ponchi♪ feat.はぁち",
+			"New song added to [[Memory Archive]]:",
+			"*[[Wish Upon a Snow]] / 打打だいず",
+			"''Further updates to in-game backgrounds, improving quality and readability''",
+			"''Visual changes when inputting fast-moving, 90° horizontal arcs, to more accurately reflect inputs''",
+			"''Fixed a bug where notes would in rare circumstances skip mid-song''"
+		],
+		"type": "collab",
+		"name": "WACCA Collaboration Chapter 2",
+		"short": "WAC2"
 	},
 	{
+		"date": "2023-11-11",
 		"version": "m:5.1.3",
-		"date": "2023-11-11"
+		"content": [
+			"''Significant updates to in-game backgrounds, improving quality and readability''",
+			"''Fixed bug relating to the [[Tempestissimo]] anomaly''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-10-26",
 		"version": "m:5.1.1",
-		"date": "2023-10-26"
+		"content": [
+			"*New song added to [[Memory Archive]] (public release):",
+			"*[[To the Furthest Dream]] / ii/night feat. 綺良雪 (publicly available October 27<sup>th</sup>)",
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-10-26",
 		"version": "5.1.0",
-		"date": "2023-10-26"
+		"content": [
+			"New Pack Append added to [[Lasting Eden]]/[[Severed Eden]]: [[Shifting Veil]]",
+			"*[[Transient Space]] / sleepless, Gardens, aspect",
+			"*[[Nameless Passion]] / 天束 feat.Sennzai",
+			"*[[TeraVolt]] / Katali",
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[FANTA5Y]] / Moon Jelly & YUKIYANAGI",
+			"''Further updates to resolution quality (including title screen and World backgrounds)''"
+		],
+		"type": "main",
+		"name": "Shifting Veil",
+		"short": "SV"
 	},
 	{
+		"date": "2023-10-03",
 		"version": "m:5.0.5",
-		"date": "2023-10-03"
+		"content": [
+			"''Changed [[Arghena]] unlock requirements''",
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-09-27",
 		"version": "m:5.0.1",
-		"date": "2023-09-27"
+		"content": [
+			"''Fixed an issue on older devices causing a crash when starting songs''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-09-27",
 		"version": "5.0.0",
-		"date": "2023-09-27"
+		"content": [
+			"New Pack Append added to [[Lasting Eden]]: [[Lasting Eden Chapter 2]]:",
+			"*[[Logos]] / polysha feat. 高城みよ",
+			"*[[Primeval Texture]] / くるぶっこちゃん",
+			"*[[Ego Eimi]] / BlackY feat. Risa Yuzuki",
+			"*[[Technicolour]] / Maozon",
+			"*[[Arghena]] / Feryquitous vs Laur",
+			"6 new Side [[Story]] entries: [[Story/Lasting Eden Chapter 2|Lasting Eden Chapter 2]]",
+			"New Side Story Partner added:",
+			"*[[Insight (Ascendant - 8th Seeker)]]",
+			"2 new songs added to [[Extend Archive 2|World Extend]]:",
+			"*[[Dynitikós]] / Prower",
+			"*[[Amekagura]] / 荒谷サトル",
+			"New song added to [[Memory Archive]]:",
+			"*[[B.B.K.K.B.K.K.]] / nora2r",
+			"New song added to [[Arcaea]]:",
+			"*[[Remind the Souls (Short Version)]] / Nhato",
+			"Quality-of-life changes:",
+			"*Improved song sorting/grouping",
+			"**Songs can be sorted by Artist",
+			"**Songs can be grouped by Clear status",
+			"*Added pause button settings (single tap, double tap, long press, disable)",
+			"*''UI and visual updates, including higher resolution pack and song jacket images, new song select backgrounds, and new UI icons''",
+			"*''All [[Arcaea]] pack songs unlocked via [[World Mode Mechanics|World Mode]] are downloaded separately''"
+		],
+		"type": "main",
+		"name": "\"Lasting Eden Chapter 2\"",
+		"short": "LE2"
 	},
 	{
+		"date": "2023-09-14",
 		"version": "4.7.2",
-		"date": "2023-09-14"
+		"content": [
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[Kanjou no Matenrou ~Arr.Demetori]] / Demetori",
+			"New song added to [[Memory Archive]] (pre-release playable at TGS 2023 from September 21-24):",
+			"*[[To the Furthest Dream]] / ii/night feat. 綺良雪",
+			"''Fixed copyright year in the main menu''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-08-18",
 		"version": "4.7.0",
-		"date": "2023-08-18"
+		"content": [
+			"New Side Story Pack released: [[Lasting Eden]]:",
+			"*[[WAIT FOR DAWN]] / U-ske feat. 棗いつき",
+			"*[[Raven's Pride]] / みーに feat. はらもりよしな",
+			"*[[Rise of the World]] / cosMo＠暴走P",
+			"*[[UNKNOWN LEVELS]] / Yuta Imai",
+			"*[[Abstruse Dilemma]] / Ashrount vs. 打打だいず",
+			"6 new Side [[Story]] entries: [[Story/Lasting Eden|Lasting Eden]]",
+			"New Side Story Partner added:",
+			"*[[Maya]]",
+			"New song added to [[Memory Archive]]:",
+			"*[[SACRIFICE feat. ayame]] / Masayoshi Minoshima(ALR)",
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[RGB]] / MEMODEMO X AQUASINE"
+		],
+		"type": "side",
+		"name": "Lasting Eden",
+		"short": "LE"
 	},
 	{
+		"date": "2023-07-19",
 		"version": "4.6.0",
-		"date": "2023-07-19"
+		"content": [
+			"New Pack Append added to [[Cytus II Collaboration]]: [[Cytus II Collaboration Chapter 2]]:",
+			"*[[syūten]] / Apo11o \"COLLAPSAR\" program ft. 大瀬良あい",
+			"*[[DRG]] / onoken",
+			"*[[99 Glooms]] / Sta",
+			"*[[II|͟͝͞Ⅱ́̕]] / Cytus",
+			"*[[Magnolia]] / M2U Vocal by Guriri",
+			"New collaboration Partner added:",
+			"*[[Hikari & Vanessa]]",
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[Ultimate taste]] / ぱらどっと"
+		],
+		"type": "collab",
+		"name": "Cytus II Collaboration Chapter 2",
+		"short": "CII2"
 	},
 	{
+		"date": "2023-06-28",
 		"version": "m:4.5.1",
-		"date": "2023-06-28"
+		"content": [
+			"''Fixed error where Lucid Traveler's jackets were swapped''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-06-28",
 		"version": "4.5.0",
-		"date": "2023-06-28"
+		"content": [
+			"New collaboration pack released: [[Cytus II Collaboration]]:",
+			"*[[Bullet Waiting for Me (James Landino remix)]] / Nikki Simmons",
+			"*[[Devillic Sphere]] / 3R2",
+			"*[[Lucid Traveler]] / Akira Complex vs 3R2",
+			"*[[CHAOS]] / Æsir",
+			"*[[Used to be]] / KIVΛ",
+			"New collaboration Partner added:",
+			"*[[Ilith & Ivy]]",
+			"New song added to [[Memory Archive]]:",
+			"*[[INTERNET YAMERO]] / Aiobahn feat. KOTOKO"
+		],
+		"type": "collab",
+		"name": "Cytus II Collaboration",
+		"short": "CII"
 	},
 	{
+		"date": "2023-05-25",
 		"version": "4.4.6",
-		"date": "2023-05-25"
+		"content": [
+			"3 new songs added to [[Memory Archive]]:",
+			"*[[Galactic Love]] / La prière",
+			"*[[Lost in the Abyss]] / FELT",
+			"*[[To the Milky Way]] / 黒魔",
+			"2 new songs added to [[Extend Archive 2|World Extend]]:",
+			"*[[Lawless Point]] / La prière",
+			"*[[Hybris (The one who shattered)]] / qfeileadh feat.のあ",
+			"New limited event Partner added:",
+			"*[[Nami (Twilight)]]",
+			"3 new Short [[Story]] entries: [[Story/Astral Sea|Astral Sea]]",
+			"''Quality-of-life changes:''",
+			"*''New \"Song Search\" feature, and improved UI for song sort & grouping''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-04-27",
 		"version": "4.4.4",
-		"date": "2023-04-27"
+		"content": [
+			"2 new songs added to [[Memory Archive]]:",
+			"*[[New York Back Raise]] / saaa + kei_iwata + stuv + わかどり",
+			"*[[The Survivor (Game Edit)]] / Taishi",
+			"2 new songs added to [[Extend Archive 2|World Extend]]:",
+			"*[[Lost Emotion feat. nomico]] / Masayoshi Minoshima(ALR)",
+			"*[[GIMMICK]] / Ms.Sill",
+			"''Quality-of-life changes:''",
+			"*''\"Show Touches\" option can now be used to show presses in-game''",
+			"*''Friend List limit increased''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-04-13",
 		"version": "m:4.4.3",
-		"date": "2023-04-13"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-04-01",
 		"version": "4.4.2",
-		"date": "2023-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"*[[0xe0e1ccull]] / f→n"
+		],
+		"type": "fools"
 	},
 	{
+		"date": "2023-03-23",
 		"version": "4.4.0",
-		"date": "2023-03-23"
+		"content": [
+			"New Pack Append added to [[CHUNITHM Collaboration]]: [[CHUNITHM Collaboration Chapter 3]]",
+			"*[[Genesis (Morrigan)|Genesis]] / Morrigan feat. Lily",
+			"*[[Cosmo Pop Funclub]] / ナユタン星人",
+			"*[[Trrricksters!!]] / s-don vs. 翡乃イスカ",
+			"*[[IMPACT]] / USAO feat. 光吉猛修",
+			"*[[Spider's Thread]] / きくお×cosMo＠暴走P feat.影縫英",
+			"2 new limited collaboration Partners added:",
+			"*[[Toa Kozukata]]",
+			"*[[Mithra Tercera]]",
+			"''All 6 previous CHUNITHM Collaboration World Mode event maps shortened''",
+			"Beyond difficulty added for 1 song:",
+			"*[[Teriqma]] / owl*tree"
+		],
+		"type": "collab",
+		"name": "CHUNITHM Collaboration Chapter 3",
+		"short": "CHN3"
 	},
 	{
+		"date": "2023-03-09",
 		"version": "4.3.2",
-		"date": "2023-03-09"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[PRIMITIVE LIGHTS]] / TAG",
+			"Beyond difficulty added for 1 song:",
+			"*[[Shades of Light in a Transcendent Realm]] / ak+q",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 9<sup>th</sup> to March 16<sup>th</sup>, 2023"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2023-03-02",
 		"version": "4.3.0",
-		"date": "2023-03-02"
+		"content": [
+			"3 new songs added to [[Memory Archive]]:",
+			"*[[Crimson Throne]] / Dimier√Lisb",
+			"*[[Manic Jeer]] / ルゼ",
+			"*[[Hiiro Gekka, Kyoushou no Zetsu (nayuta 2017 ver.)]] / nayuta x 黒鳥(EastNewSound)",
+			"New song added to [[Extend Archive 2|World Extend]]:",
+			"*[[Let's Rock (Arcaea mix)]] / ikaruga_nex vs FALCHiON",
+			"New Pack Extend added to [[maimai Collaboration]]: [[maimai Collaboration Chapter 2]]",
+			"*[[(X)|[X]]] / Blacklolita",
+			"*[[CYCLES]] / Masayoshi Minoshima feat. 綾倉盟",
+			"*[[MAXRAGE]] / EBIMAYO",
+			"*[[TEmPTaTiON]] / かねこちはる",
+			"2 new collaboration partners added:",
+			"*[[Milk (UNiVERSE)]]",
+			"*[[Shama (UNiVERSE)]]",
+			"2 new limited collaboration partners added:",
+			"*[[Mika Yurisaki]]",
+			"*[[Shikoku]]",
+			"Beyond difficulty added for 1 song:",
+			"*[[trappola bewitching]] / gmtn.",
+			"Awakening added for [[Ilith]]",
+			"3 new Short Story entries: [[Story/Dark Ambition|Dark Ambition]]",
+			"''Quality-of-life changes:''",
+			"*''Song select menu navigation improved''",
+			"*''Improved World Mode navigation:''",
+			"**''All Main Story World Mode maps are now Legacy maps''",
+			"**''Rewards changed in some World Mode maps''",
+			"**''World Mode Map 5-7 reduced in length''",
+			"**''Memory Boost and Beyond Boost enabled for [[World Mode Chapters/Lost Chapter: Beyond|Lost Chapter: Beyond]]''",
+			"''[[Shirabe]]'s Awakened Skill mechanics updated''"
+		],
+		"type": "collab",
+		"name": "maimai Collaboration Chapter 2",
+		"short": "mai2"
 	},
 	{
+		"date": "2023-02-09",
 		"version": "m:4.2.3",
-		"date": "2023-02-09"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-01-27",
 		"version": "m:4.2.1",
-		"date": "2023-01-27"
+		"content": [
+			"''Bug fixes''",
+			"''[[MANTIS (Arcaea Ultra-Bloodrush VIP)]] charts updated''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2023-01-26",
 		"version": "4.2.0",
-		"date": "2023-01-26"
+		"content": [
+			"New freemium Pack added: [[Extend Archive 1|Extend Archive]]",
+			"*Previous [[World Extend]] songs migrated to [[Extend Archive 1|Extend Archive]]",
+			"*''[[World Extend]] pack image has been updated''",
+			"5 new songs added to [[Extend Archive 2|World Extend]]:",
+			"*[[Tsuki ni Murakumo, Hana ni Kaze]] / 幽閉サテライト",
+			"*[[MANTIS (Arcaea Ultra-Bloodrush VIP)]] / Akira Complex feat. kiraku",
+			"*[[World Fragments III(radio edit)]] / xi",
+			"*[[Astra walkthrough]] / paraoka",
+			"*[[Chronicle]] / Lime",
+			"New song added to [[Memory Archive]]:",
+			"*[[NULL APOPHENIA]] / N²",
+			"3 new [[Story]] entries added to [[Story/Ambivalent Vision|Ambivalent Vision]]",
+			"New single Partner added:",
+			"*[[Lethe (Apophenia)]]",
+			"New album purchase-exclusive partner added:",
+			"*[[Lagrange (Aria)]] (with [[Memories of Myth]])",
+			"''Validity of serial codes in physical versions of official sound collections extended to January 26th, 2025''",
+			"''Quality-of-life changes to [[Ambivalent Vision]] backgrounds''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-12-27",
 		"version": "m:4.1.9",
-		"date": "2022-12-27"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-12-22",
 		"version": "m:4.1.7",
-		"date": "2022-12-22"
+		"content": [
+			"''Fixed bug which caused [[Silent Answer]] and [[γuarδina]] to be inaccessible''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-12-22",
 		"version": "4.1.6",
-		"date": "2022-12-22"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Capella]] / ARForest",
+			"New song added to [[Arcaea]]:",
+			"*[[Dialnote]] / 七草くりむ",
+			"Beyond difficulty added for 1 song:",
+			"*[[Party Vinyl]] / モリモリあつし",
+			"New limited event Partner added:",
+			"*[[Kou (Winter)]]",
+			"[[Eto & Luna (Winter)]] and [[Sia]] maps made permanently available in [[World_Mode_Data_Chapter_2_Mobile|World Mode Chapter 2]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-11-10",
 		"version": "4.1.4",
-		"date": "2022-11-10"
+		"content": [
+			"2 new songs added to [[Memory Archive]]:",
+			"*[[cocoro*cosmetic]] / KOTONOHOUSE",
+			"*[[Free Myself]] / lapix feat. mami",
+			"Beyond difficulty added for 1 song:",
+			"*[[FREEF4LL]] / YUKIYANAGI",
+			"New limited event Partner added:",
+			"*[[Amane]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-10-28",
 		"version": "m:4.1.3",
-		"date": "2022-10-28"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-10-20",
 		"version": "m:4.1.1",
-		"date": "2022-10-20"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-10-04",
 		"version": "4.1.0",
-		"date": "2022-10-04"
+		"content": [
+			"New Pack Append added to [[O.N.G.E.K.I. Collaboration]]: [[O.N.G.E.K.I. Collaboration Chapter 2]]:",
+			"*[[Heart]] / 削除 (Violin: Katali)",
+			"*[[FLUFFY FLASH]] / Kobaryo",
+			"*[[Ai Drew]] / Feryquitous",
+			"*[[Good bye, Merry-Go-Round.]] / Yooh",
+			"*[[LAMIA]] / BlackY",
+			"New collaboration Partner added:",
+			"*[[Saki]]",
+			"New limited collaboration Partner added:",
+			"*[[Setsuna]]"
+		],
+		"type": "collab",
+		"name": "O.N.G.E.K.I. Collaboration Chapter 2",
+		"short": "OGK2"
 	},
 	{
+		"date": "2022-07-28",
 		"version": "4.0.256",
-		"date": "2022-07-28"
+		"content": [
+			"''Fixed bugs in [[Silent Answer]]''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-07-13",
 		"version": "4.0.255",
-		"date": "2022-07-13"
+		"content": [
+			"[[Final Verdict]] Epilogue Sub-pack Released: [[Silent Answer]]",
+			"*[[Loveless Dress]] / かねこちはる",
+			"*[[Last]] / onoken",
+			"*[[Callima Karma]] / t+pazolite vs Feryquitous",
+			"New Story Partner added: [[Hikari & Tairitsu (Reunion)]]",
+			"2 new Main [[Story]] endings: [[Story/Silent Answer|Silent Answer]]",
+			"''Buffed [[Hikari (Fatalis)]]'s STEP and OVER stats.''"
+		],
+		"type": "main",
+		"name": "Silent Answer",
+		"short": "SA"
 	},
 	{
+		"date": "2022-07-09",
 		"version": "m:4.0.1",
-		"date": "2022-07-09"
+		"content": [
+			"''Fixed bugs in [[Final Verdict]]''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-07-07",
 		"version": "4.0.0",
-		"date": "2022-07-07"
+		"content": [
+			"Final Main Story Pack released: [[Final Verdict]]:",
+			"*[[Defection]] / TeddyLOID feat. DELTA",
+			"*[[Infinite Strife,]] / BlackYooh vs. siromaru",
+			"*[[World Ender]] / sasakure.UK × TJ.hangneil",
+			"*[[Pentiment]] / Nothing But Requiem with Museo",
+			"*[[Arcana Eden]] / Team Grimoire vs Sakuzyo vs Laur",
+			"*[[Testify]] / void (Mournfinale) feat. 星熊南巫",
+			"**Axiom of the End added",
+			"New Story Partner added: [[Hikari (Fatalis)]]",
+			"7 new Main [[Story]] entries: [[Story/Final Verdict|Final Verdict]]",
+			"New song added to [[Memory Archive]]:",
+			"*[[PUPA]] / モリモリあつし",
+			"3 songs added to [[Arcaea]]:",
+			"*[[Trap Crow]] / Puru",
+			"*[[Redraw the Colorless World]] / MisomyL",
+			"*[[Altair (feat. *spiLa*)]] / kamome sano & you",
+			"New mode: [[Course Mode]]",
+			"New limited bundle: \"Main Story Chronicles\"",
+			"Quality-of-life changes:",
+			"*Song favoriting",
+			"*Partner favoriting",
+			"*Ability to re-trigger past anomalies added",
+			"*''New graphics option for lower end devices''",
+			"*''Revised [[Songs by Chart Constant|Chart Constants]]''",
+			"''Various bug fixes''"
+		],
+		"type": "main",
+		"name": "Final Verdict",
+		"short": "FV"
 	},
 	{
+		"date": "2022-05-25",
 		"version": "3.12.10",
-		"date": "2022-05-25"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[µ]] / Frums",
+			"New song added to [[Arcaea]]",
+			"*[[san skia]] / ユアミトス"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-04-28",
 		"version": "3.12.8",
-		"date": "2022-04-28"
+		"content": [
+			"New Pack Append added to [[Lanota Collaboration]]: [[Lanota Collaboration Chapter 2]]",
+			"*[[Prism]] / bermei.inazawa ft. Chata",
+			"*[[Protoflicker]]",
+			"*[[Stasis]] / Maozon",
+			"New song added to [[Memory Archive]]:",
+			"*[[PICO-Pico-Translation!]] / t+pazolite,ななひら,Cranky,Pico*",
+			"New song added to [[Arcaea]]",
+			"*[[Dancin' on a Cat's Paw]] / Ino(chronoize)"
+		],
+		"type": "collab",
+		"name": "Lanota Collaboration Chapter 2",
+		"short": "Lnt2"
 	},
 	{
+		"date": "2022-04-01",
 		"version": "3.12.6",
-		"date": "2022-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"*[[Mistempered Malignance]] / s-don vs nitro (lowiro)"
+		],
+		"type": "fools"
 	},
 	{
+		"date": "2022-03-23",
 		"version": "3.12.4",
-		"date": "2022-03-23"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Aurgelmir]] / 溝口ゆうま feat. 大瀬良あい",
+			"Beyond difficulty added for 2 songs:",
+			"*[[MERLIN]] / REDALiCE",
+			"*[[OMAKENO Stroke]] / t+pazolite",
+			"New limited event Partner added:",
+			"*[[Linka]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-03-10",
 		"version": "m:3.12.3",
-		"date": "2022-03-10"
+		"content": [
+			"''Bug fixes''",
+			"*''Fixed bug that caushed the app to crash when viewing story entries with animation''",
+			"*''Stopped Luna's challenge from activating during [[Singularity]] BYD''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-03-09",
 		"version": "3.12.2",
-		"date": "2022-03-09"
+		"content": [
+			"Beyond difficulty added for 4 songs:",
+			"*[[Ignotus|Ignotus Afterburn]]",
+			"*[[Red and Blue|Red and Blue and Green]]",
+			"*[[Singularity|Singularity VVVIP]]",
+			"*[[dropdead|overdead.]]",
+			"New limited event added:",
+			"*[[Currency#5th Anniversary Ticket|5th Anniversary Ticket]]",
+			"**This ticket, once earned, can be exchanged for any Side Story Pack (does not include Pack Appends or Esoteric Order)",
+			"**If not used by the 22nd of March, 2022, the ticket will expire and be replaced with 55 Ether Drops",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 9<sup>th</sup> to March 15<sup>th</sup>, 2022",
+			"''Changes to folder sorting''",
+			"*''Version folders and sorting by date for Beyond difficulty are now based on the date the BYD chart was added, rather than the base song''",
+			"*''Added a Group By Available folder option for Link Play song selection''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-02-18",
 		"version": "m:3.12.1",
-		"date": "2022-02-18"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2022-02-17",
 		"version": "3.12.0",
-		"date": "2022-02-17"
+		"content": [
+			"3 new songs added to [[Arcaea]]:",
+			"*[[Ävril -Flicka i krans-]] / Rigël Theatre",
+			"*[[NULCTRL]] / Silentroom",
+			"*[[Sakura Fubuki]] / Street",
+			"4 new songs added to [[Memory Archive]]:",
+			"*[[INTERNET OVERDOSE]] / Aiobahn feat. KOTOKO",
+			"*[[Macrocosmic Modulation]] / JAKAZiD",
+			"*[[Kissing Lucifer]] / ETIA.",
+			"*[[NEO WINGS]] / SOUND HOLIC feat. Nana Takahashi",
+			"New limited event Partner added:",
+			"*[[Vita]]",
+			"3 new Short [[Story]] entries: [[Story/Unseeing Eyes|Unseeing Eyes]]",
+			"''Progression changes made to [[Black Fate]]: ''",
+			"*''Unlock requirement for [[Tempestissimo]] changed from entering a code from lowest.world/connect to clearing [[1f1e33]]''",
+			"*''Unlock requirement for [[Arcahv]] changed; song can be unlocked by completing the [[Tempestissimo]] anomaly and completing the World Mode map that unlocks''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2022-01-20",
 		"version": "3.11.2",
-		"date": "2022-01-20"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[init()]] / kamome sano",
+			"Awakening enabled for [[Ayu]]",
+			"3 new Short [[Story]] entries: [[Story/Colorful Dream|Colorful Dream]]",
+			"[[Shirabe]] map made permanently available in [[World_Mode_Data_Chapter_6_Mobile|World Mode Chapter 6]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-12-24",
 		"version": "3.11.0",
-		"date": "2021-12-24"
+		"content": [
+			"New Collaboration Pack released: [[Muse Dash Collaboration]]:",
+			"*[[Lights of Muse]] / Ayatsugu_Otowa",
+			"*[[Final Step!]] / Lime",
+			"*[[Haze of Autumn]] / karatoPαnchii feat. はるの",
+			"*[[Medusa]] / HiTECH NINJA",
+			"New collaboration Partner added:",
+			"*[[Marija]]",
+			"''Updated [[PRAGMATISM|PRAGMATISM -RESURRECTION-'s]] chart''"
+		],
+		"type": "collab",
+		"name": "Muse Dash Collaboration",
+		"short": "Mus"
 	},
 	{
+		"date": "2021-12-13",
 		"version": "m:3.10.2",
-		"date": "2021-12-13"
+		"content": [
+			"''Fixed bug where the game would crash upon clicking on \"Divided Heart\" in the Story Menu''",
+			"''Fixed bug where \"Divided Heart\" in the Story Menu would remain 'locked' regardless if the pack is purchased or not''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-12-09",
 		"version": "m:3.10.1",
-		"date": "2021-12-09"
+		"content": [
+			"''Fixed bug where the game would randomly crash upon playing/completing a song''",
+			"''Fixed bug related to score displays in Link Play''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-12-09",
 		"version": "3.10.0",
-		"date": "2021-12-09"
+		"content": [
+			"New Side Story Pack released: [[Divided Heart]]:",
+			"*[[First Snow]] / 黑魔",
+			"*[[Blocked Library]] / 影虎。",
+			"*[[Blue Rose]] / Cosmograph",
+			"*[[Nέo κósmo|nεό κόsmο]] / ak+q × Street",
+			"*[[Lightning Screw]] / HiTECH NINJA",
+			"6 new Side [[Story]] entries: [[Story/Divided Heart|Divided Heart]]",
+			"New Side Story Partner added:",
+			"*[[Shirahime]]",
+			"Beyond difficulty added for 5 songs (Beyond Chain):",
+			"*[[Kanagawa Cyber Culvert]] / 南ゆに",
+			"*[[qualia -ideaesthesia-]] / nitro",
+			"*[[Antithese]] / Blacklolita",
+			"*[[Heavensdoor]] / LeaF",
+			"*[[PRAGMATISM|PRAGMATISM -RESURRECTION-]] / Laur",
+			"New multiplayer mechanic in Music Play added:",
+			"*[[Interface and Features#Link Play|Link Play]]",
+			"''New play UI changes''",
+			"''Quality-of-life improvements regarding gameplay judgements''"
+		],
+		"type": "side",
+		"name": "Divided Heart",
+		"short": "DH"
 	},
 	{
+		"date": "2021-11-12",
 		"version": "m:3.9.1",
-		"date": "2021-11-12"
+		"content": [
+			"''Fixed bug that caused certain UI elements to be placed offscreen on devices with certain aspect ratios.''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-11-11",
 		"version": "m:3.9.0",
-		"date": "2021-11-11"
+		"content": [
+			"New Pack Append added to [[Binary Enfold]]: [[Shared Time]]",
+			"*[[Cosmica]] / Nhato",
+			"*[[Ascent]] / TANUKI",
+			"*[[Live Fast Die Young]] / anubasu-anubasu",
+			"6 new Side [[Story]] entries: [[Story/Binary Enfold|Binary Enfold]]",
+			"Awakening enabled for [[Eto]] & [[Luna]]",
+			"New song added to [[Memory Archive]]:",
+			"*[[Summer Fireworks of Love]] / karatoPαnchii feat. はるの",
+			"2 new album purchase-exclusive partners added:",
+			"*[[Alice & Tenniel (Minuet)]] (with [[Memories of Dreams]])",
+			"*[[Tairitsu (Elegy)]] (with [[Memories of Wrath]])",
+			"''Added support for narrower aspect ratios''",
+			"''Play Screen adjustments''",
+			"*''Angle between line-of-sight of camera and floor playfield decreased''",
+			"*''Support for longer aspect ratios for taller devices and iPad mini (6th generation) added''",
+			"''Validity of serial codes in physical versions of official sound collections extended to November 4, 2023''"
+		],
+		"type": "side",
+		"name": "Shared Time",
+		"short": "ST"
 	},
 	{
+		"date": "2021-10-21",
 		"version": "3.8.8",
-		"date": "2021-10-21"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Redolent Shape]] / Sanaas",
+			"Support for 120hz on iPhone 13 Pro added"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-09-29",
 		"version": "3.8.6",
-		"date": "2021-09-29"
+		"content": [
+			"2 new songs added to [[Memory Archive]]:",
+			"*[[goldenslaughterer]] / zts",
+			"*[[lastendconductor]] / zts",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[G e n g a o z o]] / -45",
+			"World Extend pack is now structured like regular packs",
+			"Various changes to [[World Mode]]:",
+			"*Fragments are gained during play just as in Music Play",
+			"*Several maps have had their play cost reduced to one Stamina and had Play+ enabled:",
+			"**[[World Mode Data Chapter 2 Mobile#2-1 Extra Originals|2-1 Extra Originals]]",
+			"**[[World Mode Data Chapter 3 Mobile#3-1 Light III|3-1 Spire Light]]",
+			"**[[World Mode Data Chapter 3 Mobile#3-2 Conflict III|3-2 Spire Conflict]]",
+			"**[[World Mode Data Chapter 3 Mobile#3-5 Conflict IV|3-5 Spire Conflict 2]]",
+			"**[[World Mode Data Chapter 4 Mobile#4-2 Light IV|4-2 Ripples]]",
+			"**[[World Mode Data Chapter 4 Mobile#4-3 Conflict V|4-3 Waves]]",
+			"**[[World Mode Data Chapter 4 Mobile#4-7 Contest 2019|4-7 The Calm]]",
+			"Ether Drops are now awarded upon purchasing Packs/Memory Archive songs, equating to 1 Ether Drop per 100 Memories spent.",
+			"*Logging in for the first time since the update will award the player all the Ether Drops for the Packs/songs they've already bought.",
+			"Fragments are split into three stacks of 9,999 Fragments each, allowing for a total of 29,997 Fragments"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-09-08",
 		"version": "3.8.4",
-		"date": "2021-09-08"
+		"content": [
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[ENERGY SYNERGY MATRIX]] / Tanchiky",
+			"'''Added setting to move position of Early/Late indicator'''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-08-24",
 		"version": "3.8.2",
-		"date": "2021-08-24"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Evening in Scarlet]] / Freezer feat. 妃莓",
+			"New limited partner added:",
+			"*[[Kanae (Midsummer)]]",
+			"New song added to [[[Extend Archive 1|World Extend]]:",
+			"[[blue comet]] / ああああ",
+			"''Added limit to [[Saya & Elizabeth]]'s fragment bonus''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-08-13",
 		"version": "m:3.8.1",
-		"date": "2021-08-13"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-08-10",
 		"version": "3.8.0",
-		"date": "2021-08-10"
+		"content": [
+			"New collaboration pack released, [[WACCA Collaboration]], containing 5 songs:",
+			"*[[Quon (DJ Noriken)|Quon]] / DJ Noriken",
+			"*[[Let you DIVE! (nitro rmx)]] / nitro (lowiro)",
+			"*[[with U]] / t+pazolite & Massive New Krew feat. リリィ(CV:青木志貴)",
+			"*[[Mazy Metroplex]] / aran",
+			"*[[GENOCIDER]] / DJ Myosuke",
+			"New collaboration partner added:",
+			"*[[Saya & Elizabeth]]",
+			"New limited collaboration partner added:",
+			"*[[Lily]]",
+			"New song added to the Memory Archive:",
+			"*[[Sheriruth (Laur Remix)]] / Laur",
+			"Group by Grade option added to song select"
+		],
+		"type": "collab",
+		"name": "WACCA Collaboration",
+		"short": "WAC"
 	},
 	{
+		"date": "2021-07-29",
 		"version": "m:3.7.1",
-		"date": "2021-07-29"
+		"content": [
+			"''Changed [[Divine Light of Myriad]]'s BPM from 344 to 172''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-07-21",
 		"version": "m:3.7.0",
-		"date": "2021-07-21"
+		"content": [
+			"New Pack Append added to [[Esoteric Order]]: [[Light of Salvation]]",
+			"*[[Small Cloud Sugar Candy]] / テヅカ x Aoi feat.桃雛なの",
+			"*[[AlterAle]] / Arik Kau Delay (アラ & かゆき & でり)",
+			"*[[Divine Light of Myriad]] / yoho",
+			"2 new songs added to [[Extend Archive 1|World Extend]]:",
+			"*[[False Embellishment]] / 影虎。 & ikaruga_nex",
+			"*[[HIVEMIND]] / かたぎり",
+			"New song added to [[Esoteric Order]]:",
+			"*[[Seclusion]] / Laur feat. Sennzai",
+			"Stories for event partners are now in their own section, Short Story"
+		],
+		"type": "side",
+		"name": "Light of Salvation",
+		"short": "LOS"
 	},
 	{
+		"date": "2021-06-30",
 		"version": "3.6.4",
-		"date": "2021-06-30"
+		"content": [
+			"2 new songs added to [[Memory Archive]] under [[HARDCORE TANO*C Collaboration Part 2]]:",
+			"*[[THE ULTIMACY]] / Massive New Krew vs aran",
+			"*[[REKKA RESONANCE]] / REDALiCE vs Kobaryo",
+			"New limited Partner added:",
+			"*[[Nami]]",
+			"''Logout option in Network menu replaced with Account Management''",
+			"''Improved input detection''",
+			"''Bug fixes''"
+		],
+		"type": "collab",
+		"name": "HARDCORE TANO*C Collaboration Part 2",
+		"short": "HTC2"
 	},
 	{
+		"date": "2021-06-11",
 		"version": "m:3.6.3",
-		"date": "2021-06-11"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-06-10",
 		"version": "3.6.2",
-		"date": "2021-06-10"
+		"content": [
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Turbocharger]] / A/I",
+			"''Bug fixes''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-05-14",
 		"version": "m:3.6.1",
-		"date": "2021-05-14"
+		"content": [
+			"''Fixed jacket of [[Far Away Light]]''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-05-11",
 		"version": "3.6.0",
-		"date": "2021-05-11"
+		"content": [
+			"New Side Story Pack released: [[Esoteric Order]]:",
+			"*[[Paper Witch]] / Yu-dachi",
+			"*[[Crystal Gravity]] / Tanchiky vs siromaru",
+			"*[[Far Away Light]] / technoplanet feat. はるの & 黒沢ダイスケ",
+			"*[[Löschen]] / BlackY feat. Risa Yuzuki",
+			"*[[Aegleseeker]] / Silentroom vs Frums",
+			"6 new Short [[Story]] entries: [[Story/Esoteric Order|Esoteric Order]]",
+			"New Side Story Partner added:",
+			"*[[Lagrange]]",
+			"New Pack Append added to [[Esoteric Order]]: [[Pale Tapestry]]:",
+			"*[[Coastal Highway]] / Glitch Droids",
+			"*[[ΟΔΥΣΣΕΙΑ]] / Sober Bear",
+			"*[[Overwhelm]] / xi",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Vandalism]] / Ashrount",
+			"Beyond difficulty added for 2 songs:",
+			"*[[Lost Civilization]] / Laur vs CK",
+			"*[[next to you]] / uma feat. 橘花音",
+			"[[World Extend]] pricing model reworked. Cost decreases by 100 memories for each song acquired after acquiring 14 songs.",
+			"*When viewing a map in Lost Chapter - Beyond, partners with affinity are put at the top of the list",
+			"Added player ranking system, separate from Potential",
+			"Increased security"
+		],
+		"type": "side",
+		"name": "Esoteric Order",
+		"short": "EO"
 	},
 	{
+		"date": "2021-04-09",
 		"version": "m:3.5.5",
-		"date": "2021-04-09"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-04-09",
 		"version": "3.5.4",
-		"date": "2021-04-09"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Can I Friend You on Bassbook? Lol]] / かめりあ feat. ななひら",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Life is PIANO]] / Junk"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-04-01",
 		"version": "3.5.3",
-		"date": "2021-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"*[[overdead. (April Fools)|overdead.]] / fn"
+		],
+		"type": "fools"
 	},
 	{
+		"date": "2021-03-09",
 		"version": "3.5.2",
-		"date": "2021-03-09"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[GIMME DA BLOOD]] / C-Show",
+			"New Limited Partner added",
+			"*[[Mir]]",
+			"3 new Short [[Story]] entries: [[Story/Obsidian Blade|Obsidian Blade]]",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 9<sup>th</sup> to March 15<sup>th</sup>, 2021"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-02-11",
 		"version": "3.5.1",
-		"date": "2021-02-11"
+		"content": [
+			"2 new songs added to [[Extend Archive 1|World Extend]]:",
+			"*[[enchanted love]] / linear ring",
+			"*[[Bamboo]] / 立秋 feat.ちょこ",
+			"''Minor bug fixes''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2021-01-21",
 		"version": "3.5.0",
-		"date": "2021-01-21"
+		"content": [
+			"New Pack Append added to [[CHUNITHM Collaboration]]: [[CHUNITHM Collaboration Chapter 2]]:",
+			"*[[Climax]] / USAO",
+			"*[[Last Celebration]] / Laur vs CK",
+			"*[[Misdeed -la bonte de Dieu et lorigine du mal-|Misdeed -la bonté de Dieu et l'origine du mal-]] / 光吉猛修 vs 穴山大輔",
+			"3 new limited collaboration Partners added:",
+			"*[[Seele Haze]]",
+			"*[[Areus]]",
+			"*[[Isabelle Yagrush]]",
+			"New song added to [[Memory Archive]]:",
+			"*[[AttraqtiA]] / かめりあ",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Glow]] / SPACELECTRO"
+		],
+		"type": "collab",
+		"name": "CHUNITHM Collaboration Chapter 2",
+		"short": "CHN2"
 	},
 	{
+		"date": "2021-01-13",
 		"version": "m:3.4.2",
-		"date": "2021-01-13"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2021-01-08",
 		"version": "3.4.1",
-		"date": "2021-01-08"
+		"content": [
+			"New collaboration pack released: [[maimai Collaboration]]:",
+			"*[[April showers]] / cubesato",
+			"*[[7thSense]] / 削除",
+			"*[[Oshama Scramble!]] / t+pazolite",
+			"*[[AMAZING MIGHTYYYY!!!!]] / WAiKURO",
+			"Beyond difficulty added for 1 song:",
+			"*[[Moonheart]] / 翡乃イスカ",
+			"''Main menu now reacts to accelerometer (only works on some devices)''"
+		],
+		"type": "collab",
+		"name": "maimai Collaboration",
+		"short": "mai"
 	},
 	{
+		"date": "2020-12-17",
 		"version": "3.4.0",
-		"date": "2020-12-17"
+		"content": [
+			"New collaboration pack released: [[O.N.G.E.K.I. Collaboration]]:",
+			"*[[Lazy Addiction]] / sky_delta",
+			"*[[Dazzle hop]] / Sampling Masters MEGA",
+			"*[[Viyella's Tears]] / Laur",
+			"*[[W4|ω4]] / 穴山大輔 VS 光吉猛修 VS Kai",
+			"New collaboration Partner added:",
+			"*[[Luna & Mia]]",
+			"''Random button now stays onscreen after use''",
+			"''Using [[Ilith (Summer)]] now displays a lock next to the Recollection Rate when under 20 combo''",
+			"''When playing a song on World Mode with a Partner that has a skill that affects the amount of fragments upon clearing the song, it now has a skill animation stating that the skill is disabled. [[Ilith]] is exempt from this.''"
+		],
+		"name": "O.N.G.E.K.I. Collaboration",
+		"short": "OGK"
 	},
 	{
+		"date": "2020-12-09",
 		"version": "3.3.1",
-		"date": "2020-12-09"
+		"content": [
+			"Pack Append feature added",
+			"New Pack Append added to [[Ephemeral Page]]: [[The Journey Onwards]]:",
+			"*[[Beside You]] / 江口孝宏",
+			"*[[Heart Jackin']] / Yu_Asahina",
+			"*[[To: Alice Liddell]] / モリモリあつし",
+			"Unlock conditions added to [[Ephemeral Page]]"
+		],
+		"type": "side",
+		"name": "The Journey Onwards",
+		"short": "TJO"
 	},
 	{
+		"date": "2020-12-03",
 		"version": "3.3.0",
-		"date": "2020-12-03"
+		"content": [
+			"New Side Story Pack released: [[Ephemeral Page]]:",
+			"*[[Alice à la mode]] / Masanori Akita",
+			"*[[Jump]] / Rasmus Faber",
+			"*[[Alice's Suitcase]] / Endorfin.",
+			"*[[Eccentric Tale]] / Yamajet",
+			"*[[Felis]] / M2U",
+			"6 new Side [[Story]] entries: [[Story/Ephemeral Page|Ephemeral Page]]",
+			"New Side Story Partner added:",
+			"*[[Alice & Tenniel]]",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Purple Verse]] / Hommarju",
+			"''All Songs \"pack\" button moved to the bottom-right of the pack select menu''",
+			"''Code shown when tapping on [[Story/Black Fate#Entry VS-7|Story entry VS-7]] prior to unlock (see [[Tempestissimo#Unlock Method|Tempestissimo § Unlock Method]]) was changed to a direct link to lowest.world/connect''"
+		],
+		"type": "side",
+		"name": "Ephemeral Page",
+		"short": "EP"
 	},
 	{
+		"date": "2020-11-21",
 		"version": "m:3.2.4",
-		"date": "2020-11-21"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-11-19",
 		"version": "3.2.3",
-		"date": "2020-11-19"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Xanatos]] / Tatsh",
+			"Beyond difficulty added for 1 song:",
+			"*[[Lumia]] / sky_delta",
+			"''Reworked interface for Cloud Sync''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-10-30",
 		"version": "3.2.2",
-		"date": "2020-10-30"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Xeraphinite]] / BlackY",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Lapis]] / SHIKI",
+			"New album purchase-exclusive partner added:",
+			"*[[Saya (Etude)]] (with [[Memories of Realms]])"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-10-07",
 		"version": "3.2.1",
-		"date": "2020-10-07"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Galaxy Friends]] / Kobaryo",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[CROSS†OVER]] / HyuN"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-09-16",
 		"version": "3.2.0",
-		"date": "2020-09-16"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[BUCHiGiRE Berserker]] / REDALiCE vs MASAKI",
+			"New song added to [[Groove Coaster Collaboration]] pack:",
+			"*[[Got hive of Ra]] / E.G.G.",
+			"*Awakening enabled for [[Yume]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-09-03",
 		"version": "3.1.2",
-		"date": "2020-09-03"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Malicious Mischance]] / s-don",
+			"New limited Partner added:",
+			"*[[Ilith (Summer)]]",
+			"''Fixed bug preventing Cloud Sync''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-08-21",
 		"version": "m:3.1.1",
-		"date": "2020-08-21"
+		"content": [
+			"''Multiple bug fixes''",
+			"''Added setting to show/hide skill display at the start of a round''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-08-21",
 		"version": "3.1.0",
-		"date": "2020-08-21"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[BADTEK]] / EBIMAYO",
+			"Beyond difficulty added for 2 songs:",
+			"*[[Purgatorium]] / お月さま交響曲",
+			"*[[Dement ~after legend~]] / Cosmograph"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-08-07",
 		"version": "3.0.6",
-		"date": "2020-08-07"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[MAHOROBA]] / Zekk",
+			"''Added option to uncap FPS (Android only on devices above 60 FPS)''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-07-16",
 		"version": "3.0.5",
-		"date": "2020-07-16"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Teriqma]] / owl*tree",
+			"New limited collaboration Partner added:",
+			"*[[Brillante (E/S Primera)]]",
+			"''Song \"Faint Light\" renamed to \"[[Faint Light (Arcaea Edit)]]\"''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-07-09",
 		"version": "m:3.0.4",
-		"date": "2020-07-09"
+		"content": [
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-07-08",
 		"version": "3.0.3",
-		"date": "2020-07-08"
+		"content": [
+			"2 new songs added to [[Memory Archive]]:",
+			"*[[Scarlet Cage]] / Daisuke Kurosawa",
+			"*[[Feels So Right feat. Renko]] / Mysteka",
+			"New song added to [[Extend Archive 1|World Extend]]:",
+			"*[[Faint Light]] / Taishi",
+			"Awakening enabled for [[Shirabe]]",
+			"3 new Short [[Story]] entries: [[Story/Scarlet Cage|Scarlet Cage]]",
+			"''Minor changes to [[Story]] interface:''",
+			"*''Story/Side Story icon relocated to left of screen''",
+			"*''Side Story page can be scrolled horizontally''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-06-12",
 		"version": "m:3.0.2",
-		"date": "2020-06-12"
+		"content": [
+			"Added \"Overdrive\" Partner sort (sorts by OVER stat)",
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-05-28",
 		"version": "m:3.0.1",
-		"date": "2020-05-28"
+		"content": [
+			"''Abbreviation for Beyond renamed from BYN to BYD''",
+			"''Bug fixes''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-05-29",
+		"version": "3.0.0",
+		"content": [
+			"New chapter added to [[World Mode]]: [[World Mode Chapters/Lost Chapter: Beyond|Lost Chapter: Beyond]]",
+			"*Unlocks Beyond difficulty charts for existing songs.",
+			"*Utilises unique progression mechanics.",
+			"Beyond difficulty added for 4 songs:",
+			"*[[Fairytale]] / chitose",
+			"*[[GOODTEK (Arcaea Edit)]] / EBIMAYO",
+			"*[[Infinity Heaven]] / HyuN",
+			"*[[Vexaria]] / ak+q",
+			"OVER stat added to all [[Partners]]"
+		],
+		"type": "minor"
+	},
+	{
+		"date": "2020-05-27",
+		"version": "3.0.0",
+		"content": [
+			"New Main Story Pack released: [[Black Fate]]:",
+			"*[[Equilibrium]] / Maozon",
+			"*[[Antagonism]] / Yooh vs. siromaru",
+			"*[[Lost Desire]] / Powerless feat. Sennzai",
+			"*[[Dantalion]] / Team Grimoire",
+			"*[[1f1e33|#1f1e33]] / かめりあ (EDP)",
+			"*[[Tempestissimo]] / t+pazolite",
+			"*[[Arcahv]] / Feryquitous",
+			"8 new Main Story entries: [[Story/Black Fate|Black Fate]]",
+			"New Story Partner added:",
+			"*[[Tairitsu (Tempest)]]",
+			"New Expansion Pack released: [[Extend Archive 1|World Extend]]:",
+			"*[[Vivid Theory]] / ak+q",
+			"*[[Gekka (Short Version)]] / Nhato",
+			"*[[1F√]] / WHITEFISTS",
+			"*[[Give Me a Nightmare]] / アリスシャッハと魔法の楽団",
+			"*[[Black Lotus]] / wa.",
+			"New song added to [[Memory Archive]]:",
+			"*[[Altale]] / Sakuzyo",
+			"New chapter added to [[World Mode]]",
+			"New difficulty added: Beyond.",
+			"Beyond difficulty added for 1 song:",
+			"*[[Tempestissimo]] / t+pazolite",
+			"Multiple gameplay changes:",
+			"*Renumbered difficulty levels:",
+			"**9 → 9, 9+, 10",
+			"**9+ → 10, 10+",
+			"**10 → 11",
+			"*Revised [[Songs by Chart Constant|Chart Constants]]",
+			"*Revised [[Potential]] mechanics.",
+			"*Revised [[World Mode]] map locations.",
+			"*Major UI changes.",
+			"Additional gameplay features added:",
+			"*EX+ [[Scoring#Grades|grade]] added.",
+			"*Song folder feature added.",
+			"*Scenery feature added.",
+			"Story mode changes",
+			"*Pages can now be scrolled vertically freely akin to song select",
+			"*New page added, accessed via the top of the Story page",
+			"''Scheduled time-based release of additional features.''"
+		],
+		"type": "main",
+		"name": "Black Fate",
+		"short": "BF"
+	},
+	{
+		"date": "2020-05-02",
 		"version": "m:2.6.2",
-		"date": "2020-05-02"
+		"content": [
+			"Attempt to reject invalid connection in story",
+			"*''Added hint for Alternate Reality Game ([[Arcaea_ARGs#Black_Fate|ARG]])''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-04-01",
 		"version": "2.6.1",
-		"date": "2020-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"*[[Singularity VVVIP (April Fools)|Singularity VVVIP]] / Arcaea Sound Team against. ETIA."
+		],
+		"type": "fools"
 	},
 	{
+		"date": "2020-03-25",
 		"version": "2.6.0",
-		"date": "2020-03-25"
+		"content": [
+			"New song added to [[Ambivalent Vision]]:",
+			"*[[corps-sans-organes]] / cybermiso",
+			"6 new Side [[Story]] entries: [[Story/Ambivalent Vision|Ambivalent Vision]]",
+			"*Awakening enabled for [[Lethe]]",
+			"New song added to [[Arcaea]]:",
+			"*[[Oblivia]] / Saiph",
+			"New song added to [[Memory Archive]]:",
+			"*[[amygdata]] / nitro",
+			"Added audio preset setting to save offsets for 2 audio devices.",
+			"Awakening [[Partners#Bypass|bypass]] feature added."
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-03-09",
 		"version": "2.5.3",
-		"date": "2020-03-09"
+		"content": [
+			"New song added to Main Story pack [[Adverse Prelude]]:",
+			"*[[BLRINK]] / Sta",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 9<sup>th</sup> to March 15<sup>th</sup>, 2020"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-02-21",
 		"version": "2.5.2",
-		"date": "2020-02-21"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[world.execute(me);]] / Mili",
+			"'''World' and 'My Rank' leaderboards disabled (pre-installed songs only)''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2020-02-04",
 		"version": "m:2.5.1",
-		"date": "2020-02-04"
+		"content": [
+			"''Fixed vulnerability with payment system.''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2020-01-21",
 		"version": "2.5.0",
-		"date": "2020-01-21"
+		"content": [
+			"4 new songs released to [[Memory Archive]] under [[HARDCORE TANO*C Collaboration]]:",
+			"*[[La'qryma of the Wasteland]] / DJ Noriken",
+			"*[[Einherjar Joker]] / DJ Genki vs Gram",
+			"*[[IZANA]] / t+pazolite vs P*Light",
+			"*[[SAIKYO STRONGER]] / REDALiCE vs USAO",
+			"New limited collaboration Partner added:",
+			"*[[DORO*C]]",
+			"''[[BATTLE NO.1]]'s background changed to tanoc_conflict''",
+			"''Song unlock display overhauled''"
+		],
+		"type": "collab",
+		"name": "HARDCORE TANO*C Collaboration (for real)",
+		"short": "HTC"
 	},
 	{
+		"date": "2020-01-15",
 		"version": "2.4.9",
-		"date": "2020-01-15"
+		"content": [
+			"[[HARDCORE TANO*C Collaboration]] released:",
+			"New song added to [[Memory Archive]]:",
+			"*[[BATTLE NO.1]] / TANO*C Sound Team"
+		],
+		"type": "minor",
+		"name": "HARDCORE TANO*C Collaboration",
+		"short": "HTC"
 	},
 	{
+		"date": "2019-12-24",
 		"version": "m:2.4.8",
-		"date": "2019-12-24"
+		"content": [
+			"''Artist \"Lunatic Sounds\" renamed to \"[[Artists#Cosmograph|Cosmograph]]\"''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2019-12-09",
 		"version": "2.4.7",
-		"date": "2019-12-09"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Avant Raze]] / Sampling Masters MEGA",
+			"New Limited Partner added:",
+			"*[[Sia]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-11-27",
 		"version": "m:2.4.6",
-		"date": "2019-11-27"
+		"content": [
+			"''Fixed bug causing the game to crash on low-spec devices''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2019-11-18",
 		"version": "2.4.5",
-		"date": "2019-11-18"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Senkyou]] / MYTK",
+			"New song added to [[Memory Archive]]:",
+			"*[[Filament]] / Puru"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-10-26",
 		"version": "2.4.3",
-		"date": "2019-10-26"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Monochrome Princess]] / polysha",
+			"New song added to [[Memory Archive]]:",
+			"*[[Heavenly caress]] / Noah",
+			"2 new album purchase-exclusive partners added:",
+			"*[[Hikari (Fantasia)]] (with [[Memories of Light]])",
+			"*[[Tairitsu (Sonata)]] (with [[Memories of Conflict]])"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-10-11",
 		"version": "m:2.4.2",
-		"date": "2019-10-11"
+		"content": [
+			"''Fixed bug where attempting to enter [[Story]] crashes the game if [[Crimson Solace]] had not been purchased''",
+			"''Fixed bug where [[World Mode]] Play+ 1.1 multiplier costed 1 fragment instead of 100''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2019-10-08",
 		"version": "2.4.0",
-		"date": "2019-10-08"
+		"content": [
+			"New song added to [[Crimson Solace]]:",
+			"*[[GLORY:ROAD]] / uma vs. モリモリあつし",
+			"8 new Side [[Story]] entries: [[Story/Crimson Solace|Crimson Solace]]",
+			"Awakening enabled for [[Kou]]",
+			"2 new songs added to [[Arcaea]]:",
+			"*[[Diode]] / Kolaa",
+			"*[[FREEF4LL]] / YUKIYANAGI",
+			"Songs in [[Stellights Collaboration]] relocated to [[Memory Archive]]",
+			"Several changes to [[World Mode]] system:",
+			"*Maximum stamina increased from 6 to 12",
+			"**Refills still give 6 stamina instead of the new limit of 12",
+			"*Added [[World_Mode_Mechanics#Memory_Boost|Memory Boost]] feature",
+			"*The step multiplier for consuming extra stamina or [[Currency#Fragments|Fragments]] in Legacy chapters now also applies to [[Partners|partner]] EXP gain",
+			"*''Added option to enable push notifications when stamina is fully recharged''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-09-05",
 		"version": "2.3.2",
-		"date": "2019-09-05"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Mirzam]] / Aoi vs. siqlo (publicly available from September 23<sup>rd</sup>)",
+			"''Unlock conditions for [[Sunset Radiance]] songs changed from \"Clear\" to \"Play\"''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-08-28",
+		"version": "m:2.3.1",
+		"content": [
+			"''Fixed bugs preventing the game from starting up on Huawei devices''"
+		],
+		"type": "patch"
+	},
+	{
+		"date": "2019-08-22",
 		"version": "2.3.0",
-		"date": "2019-08-22"
+		"content": [
+			"New Side Story Pack released: [[Sunset Radiance]]:",
+			"*[[Chelsea]] / 7mai",
+			"*[[AI UE OON|AI[UE]OON]] / MYUKKE.",
+			"*[[A Wandering Melody of Love]] / からとP⍺ոchii少年 feat.はるの",
+			"*[[Tie me down gently]] / 溝口ゆうま feat. 大瀬良あい",
+			"*[[Valhalla:0]] / Juggernaut.",
+			"New Partner added:",
+			"*[[Kanae]]",
+			"''Added function to allow consuming multiple Ether Drops at once.''",
+			"''Friends limit increased.''",
+			"''Increased maximum tap sound volume.''"
+		],
+		"type": "side",
+		"name": "Sunset Radiance",
+		"short": "SR"
 	},
 	{
+		"date": "2019-07-18",
 		"version": "2.2.0",
-		"date": "2019-07-18"
+		"content": [
+			"New Main Story pack released: [[Adverse Prelude]]:",
+			"*[[Particle Arts]] / Virtual Self",
+			"*[[Vindication]] / Laur",
+			"*[[Heavensdoor]] / LeaF",
+			"*[[Ringed Genesis]] / Edelritter",
+			"4 new Main [[Story]] entries: [[Story/Adverse Prelude|Adverse Prelude]]",
+			"New song added to [[Memory Archive]]:",
+			"*[[Dreadnought]] / Mastermind (xi + nora2r)",
+			"New cover art for [[Cry of viyella]]",
+			"Changed intro and title theme to instrumental of [[Solitary Dream]]",
+			"Added icon select feature to [[Partners]] list (i.e. player icon)",
+			"Revamped Settings menu:",
+			"*3 categories: Gameplay, Audio, and Visual",
+			"*Added option to enable/disable shown potential",
+			"*''Maximum Note Speed changed from 6 to 6.5''",
+			"*Added option to set FR/PM indicator position",
+			"*Added Colorblind Mode",
+			"Added 'Continue' button for [[World Mode]]"
+		],
+		"type": "main",
+		"name": "Adverse Prelude",
+		"short": "AP"
 	},
 	{
+		"date": "2019-05-23",
 		"version": "2.1.0",
-		"date": "2019-05-23"
+		"content": [
+			"New Collaboration Pack released: [[CHUNITHM Collaboration]]:",
+			"*[[Garakuta Doll Play]] / t+pazolite",
+			"*[[Ikazuchi]] / 光吉猛修",
+			"*[[World Vanquisher]] / void (Mournfinale)",
+			"New collaboration Partner added:",
+			"*[[Tairitsu (Grievous Lady) & Chuni Penguin]]",
+			"5 new limited collaboration Partners added:",
+			"*[[Nono Shibusawa]]",
+			"*[[Haruna Mishima]]",
+			"*[[Regulus (MDA-21)]]",
+			"*[[Pandora Nemesis (MTA-XXX)]]",
+			"*[[Chuni Penguin]]",
+			"''Updated formatting of [[Partners|Partner]] stats: values between 0.1 (inclusive) and 1 (exclusive) are displayed with one decimal place''",
+			"''(Android) Fixed resolution for wider screens''"
+		],
+		"type": "collab",
+		"name": "CHUNITHM Collaboration",
+		"short": "CHN"
 	},
 	{
+		"date": "2019-05-02",
 		"version": "2.0.3",
-		"date": "2019-05-02"
+		"content": [
+			"2 new songs added to [[Arcaea]]:",
+			"*[[SUPERNOVA]] / BACO",
+			"*[[VECTOЯ]] / WHITEFISTS",
+			"New song added to [[Memory Archive]]:",
+			"*[[Dot to Dot feat. shully]] / Mameyudoufu",
+			"''Fixed bug when launching game on Huawei devices with Android 9.x''",
+			"''[[Tairitsu (Axium)]] renamed from \"Tairitsu\" to \"Tairitsu (Axium)\"''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-04-01",
 		"version": "2.0.2",
-		"date": "2019-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"*[[Red and Blue and Green (April Fools)|Red and Blue and Green]] / fn(ArcaeaSoundTeam)"
+		],
+		"type": "fools"
 	},
 	{
+		"date": "2019-03-25",
 		"version": "m:2.0.1",
-		"date": "2019-03-25"
+		"content": [
+			"''Corrected localization for Japanese & Korean.'''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2019-03-21",
 		"version": "2.0.0",
-		"date": "2019-03-21"
+		"content": [
+			"New chapter added to [[World Mode]]",
+			"New Side Story Pack released: [[Absolute Reason]]:",
+			"*[[Antithese]] / Blacklolita",
+			"*[[Corruption]] / 3R2",
+			"*[[Black Territory]] / DJ Myosuke",
+			"*[[Vicious Heroism]] / Kobaryo",
+			"*[[Cyaegha]] / USAO",
+			"5 new Side [[Story]] entries: [[Story/Absolute Reason|Absolute Reason]]",
+			"New Side Story Partner added:",
+			"*[[Saya]]",
+			"2 new songs added to [[Arcaea]]:",
+			"*[[ReviXy]] / ikaruga_nex",
+			"*[[Grimheart]] / Puru",
+			"[[Story]] UI revamped",
+			"*Separate Story tab in main menu",
+			"*Individual stories collated into Story Mode",
+			"*Story chapters can be unlocked via song challenges",
+			"*Stories moved:",
+			"**[[Story/Eternal Core|Eternal Core]]",
+			"**[[Story/Vicious Labyrinth|Vicious Labyrinth]]",
+			"**[[Story/Luminous Sky|Luminous Sky]]",
+			"''Added 3 languages to stories:''",
+			"*''Korean''",
+			"*''Chinese (Traditional)''",
+			"*''Chinese (Simplified)''",
+			"Added [[Partners#Ether Drop|Ether Drops]] as [[World Mode]] rewards",
+			"*For already cleared areas, Ether Drops are automatically rewarded",
+			"Added [[Partners#Awakening|Awakening]] system for [[Partners]]:",
+			"*Added [[Partners#Cores|Cores]] as [[World Mode]] rewards",
+			"*Awakening enabled for 2 Partners:",
+			"**[[Hikari]]",
+			"**[[Tairitsu]]",
+			"''To reduce update time, download format is changed for all paid songs''",
+			"Additional gameplay features added:",
+			"*[[Gameplay#Play Screen|Play Screen]]:",
+			"**[[Scoring#Titles|Pure Memory/Full Recall]] status indicators added",
+			"**[[Gameplay#Note Types|Sky Note]] edges brightened for better visibility",
+			"*[[Interface and Features#Song Selection|Song Selection]] Screen:",
+			"**''Song previews looped (except for [[Arcaea]] song pack).''",
+			"**''Added \"Clear\" order to sorting criteria''",
+			"**''Leaderboard extended.''",
+			"*Icons changed for 3 [[Songs by Pack|Song Packs]]:",
+			"**[[Arcaea]]",
+			"**[[Eternal Core]]",
+			"**[[Crimson Solace]]",
+			"*[[Partners|Partner]] Selection Screen:",
+			"**''Partner zoom-in feature added.''",
+			"**''Added \"FRAG\" order and \"STEP\" order to sorting criteria.''",
+			"*''Mutual friend indicator added.''",
+			"''(iOS) Support for iPhone X Haptic Engine added''"
+		],
+		"type": "side",
+		"name": "Absolute Reason",
+		"short": "AR"
 	},
 	{
+		"date": "2019-03-09",
 		"version": "1.9.3",
-		"date": "2019-03-09"
+		"content": [
+			"New song added to [[Eternal Core]]:",
+			"*[[Solitary Dream]] / ak+q feat. Sennzai",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 9<sup>th</sup> to March 15<sup>th</sup>, 2019"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-02-11",
 		"version": "1.9.2",
-		"date": "2019-02-11"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Libertas]] / Zekk",
+			"''[[Hikari & Seine]]'s skill description was reworded to note that it only works on songs in the [[Groove Coaster Collaboration]]''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2019-01-11",
+		"version": "m:1.9.1",
+		"content": [
+			"''Fixed bug where attempting to trigger Yume's voice lines crashes the game on Android.''"
+		],
+		"type": "patch"
+	},
+	{
+		"date": "2019-01-09",
 		"version": "1.9.0",
-		"date": "2019-01-09"
+		"content": [
+			"New Collaboration Pack released: [[Groove Coaster Collaboration]]:",
+			"*[[MERLIN]] / REDALiCE",
+			"*[[DX Choseinou Full Metal Shojo]] / IOSYS TRAX (uno with.ちよこ)",
+			"*[[OMAKENO Stroke]] / t+pazolite",
+			"*[[Scarlet Lance]] / MASAKI (ZUNTATA)",
+			"*[[ouroboros -twin stroke of the end-]] / Cranky VS MASAKI",
+			"New collaboration Partner added:",
+			"*[[Hikari & Seine]]",
+			"New limited Collaboration Partner added:",
+			"*[[Yume]]"
+		],
+		"type": "collab",
+		"name": "Groove Coaster Collaboration",
+		"short": "Grv"
 	},
 	{
+		"date": "2018-12-22",
 		"version": "1.8.3",
-		"date": "2018-12-22"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Empire of Winter]] / Street",
+			"New limited Partner added:",
+			"*[[Eto & Luna (Winter)]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-11-29",
 		"version": "1.8.2",
-		"date": "2018-11-29"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Phantasia]] / Yunosuke",
+			"New limited Partner added:",
+			"*[[Ayu]]",
+			"*Updated iPad Pro support",
+			"''Various bugs fixed''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-11-08",
 		"version": "1.8.1",
-		"date": "2018-11-08"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Rugie]] / Feryquitous feat.Sennzai",
+			"New song added to [[Memory Archive]]:",
+			"*[[Astral tale]] / Noah",
+			"''Fixed issue in [[Hall of Mirrors]] FTR''",
+			"''Improved audio timing''",
+			"*''Details: all audio formats are now 192k vorbis/ogg, replacing 320k mp3. Audio quality is mostly unaffected.''",
+			"*''Singles in Memory Archive require downloading of both charts and music, making chart spoilers impossible in the future updates.''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-10-07",
 		"version": "1.8.0",
-		"date": "2018-10-07"
+		"content": [
+			"New Collaboration Pack released: [[Tone Sphere Collaboration]]:",
+			"*[[Hikari (Song)|Hikari]] / THB",
+			"*[[Hall of Mirrors]] / Sta",
+			"*[[STAGER (ALL STAGE CLEAR)]] / Ras",
+			"*[[Linear Accelerator]] / THE SHAFT",
+			"*[[Tiferet]] / xi + Sta",
+			"New collaboration Partner added:",
+			"*[[Tairitsu & Trin]]"
+		],
+		"type": "collab",
+		"name": "Tone Sphere Collaboration",
+		"short": "Ton"
 	},
 	{
+		"date": "2018-09-18",
 		"version": "1.7.6",
-		"date": "2018-09-18"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Alexandrite]] / WAiKURO (publicly available from September 30<sup>rd</sup>)"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2018-09-17",
 		"version": "1.7.5",
-		"date": "2018-09-17"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Purgatorium]] / お月さま交響曲",
+			"Added the ability to sort Partners by name, level, date obtained, and their FRAG and STEP stats"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-08-31",
 		"version": "1.7.4",
-		"date": "2018-08-31"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[LunarOrbit -believe in the Espebranch road-]] / Apo11o program ft. 大瀬良あい",
+			"2 new limited Partners added:",
+			"*[[Hikari (Summer)]]",
+			"*[[Tairitsu (Summer)]]"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-08-13",
 		"version": "1.7.2",
-		"date": "2018-08-13"
+		"content": [
+			"2 new songs added to [[Memory Archive]]:",
+			"*[[Fallensquare]] / Silentroom",
+			"*[[dropdead]] / Frums",
+			"New song added to [[Arcaea]]:",
+			"*[[Nhelv]] / Silentroom",
+			"''Maximum Note Speed increased from 5.5 to 6''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-07-16",
 		"version": "1.7.0",
-		"date": "2018-07-16"
+		"content": [
+			"New chapter added to [[World Mode]]",
+			"New Main Story Pack released: [[Luminous Sky]]:",
+			"*[[Maze No.9]] / アリスシャッハと魔法の楽団",
+			"*[[The Message]] / Jun Kuroda",
+			"*[[Sulfur]] / ぺのれり",
+			"*[[Halcyon]] / xi",
+			"*[[Ether Strike]] / Akira Complex",
+			"*[[Fracture Ray]] / Sakuzyo",
+			"2 new Story partners added:",
+			"*[[Hikari (Zero)]]",
+			"*[[Hikari (Fracture)]]",
+			"3 new songs added to [[Arcaea]]:",
+			"*[[Bookmaker (2D Version)]] / Kobaryo",
+			"*[[Illegal Paradise]] / gmtn. (witch's slave)",
+			"*[[Suomi]] / Aire",
+			"New World Mode features added",
+			"*Added [[World Mode Mechanics#Legacy|Legacy]] feature",
+			"**Chapter 1 labelled as Legacy chapter",
+			"*Added random song tiles, stamina tiles and fixed speed tiles",
+			"**''The infinite map in Chapter 0 was retrofitted to include stamina tiles''",
+			"**''Despite being added in this version, fixed speed tiles were not used until v1.7.2''"
+		],
+		"type": "main",
+		"name": "Luminous Sky",
+		"short": "LS"
 	},
 	{
+		"date": "2018-06-22",
 		"version": "1.6.6",
-		"date": "2018-06-22"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[inkar-usi]] / DIA",
+			"New song added to [[Memory Archive]]:",
+			"*[[Call My Name feat. Yukacco]] / Mameyudoufu"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-06-02",
 		"version": "m:1.6.5",
-		"date": "2018-06-02"
+		"content": [
+			"''Bug fixed where the game would freeze while attempting to Cloud Sync''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2018-06-01",
 		"version": "1.6.4",
-		"date": "2018-06-01"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Cybernecia Catharsis]] / Tanchiky",
+			"New song added to [[Memory Archive]]:",
+			"*[[Be There]] / PSYQUI",
+			"''Improved temporary in-game freezes''",
+			"''Fixed bugs''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-05-03",
 		"version": "1.6.3",
-		"date": "2018-05-03"
+		"content": [
+			"''[[World Mode]] map for [[γuarδina]] enabled''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2018-04-29",
 		"version": "1.6.2",
-		"date": "2018-04-29"
+		"content": [
+			"2 new songs added to [[Memory Archive]]:",
+			"*[[carmine:scythe]] / kayuki",
+			"*[[γuarδina]] / Aoi ('''not''' available until May 3)",
+			"New limited Partner added:",
+			"*[[Shirabe]]",
+			"''Support for wider device screens: iPhone X, Samsung Galaxy S8, Google Pixel 2 XL''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-04-01",
 		"version": "1.6.1",
-		"date": "2018-04-01"
+		"content": [
+			"New April Fools' one day limited Error Track:",
+			"*[[Ignotus Afterburn (April Fools)|Ignotus Afterburn]] / Arcaea Sound Team",
+			"Cloud Sync feature added",
+			"Random song feature added"
+		],
+		"type": "fools",
+		"name": "April Fools 2018: Ignotus Afterburn"
 	},
 	{
+		"date": "2018-03-23",
 		"version": "1.6.0",
-		"date": "2018-03-23"
+		"content": [
+			"New chapter added to [[World Mode]]",
+			"New Side Story Pack released: [[Binary Enfold]]",
+			"*[[next to you]] / uma feat. 橘花音",
+			"*[[Silent Rush]] / Soleily",
+			"*[[Strongholds]] / Yooh",
+			"*[[Memory Forest]] / ETIA.",
+			"*[[Singularity]] / ETIA.",
+			"2 new Side Story partners added:",
+			"*[[Eto]]",
+			"*[[Luna]]",
+			"Profile Card feature added"
+		],
+		"type": "side",
+		"name": "Binary Enfold",
+		"short": "BE"
 	},
 	{
+		"date": "2018-03-09",
 		"version": "1.5.7",
-		"date": "2018-03-09"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Blaster]] / Massive New Krew",
+			"[[Misc_Trivia#Anniversary_sales|Sale]] from March 9<sup>th</sup> to March 15<sup>th</sup>, 2018"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-02-16",
 		"version": "1.5.6",
-		"date": "2018-02-16"
+		"content": [
+			"New song added to [[Memory Archive]]:",
+			"*[[Metallic Punisher]] / INNOCENT NOIZE",
+			"New limited Partner added:",
+			"*[[Ilith]]",
+			"(Android) Improved offset settings"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2018-01-31",
 		"version": "1.5.5",
-		"date": "2018-01-31"
+		"content": [
+			"New Collaboration Pack released: [[Lanota Collaboration]]:",
+			"*[[Dream goes on]] / Tiny Minim",
+			"*[[Journey]] / ARForest",
+			"*[[Specta]] / Junk",
+			"*[[Quon]] / Feryquitous",
+			"*[[cyanine]] / jioyi",
+			"New collaboration Partner added:",
+			"*[[Hikari & Fisica]]",
+			"''Fixed bugs''"
+		],
+		"type": "collab",
+		"name": "Lanota Collaboration",
+		"short": "Lnt"
 	},
 	{
+		"date": "2017-12-23",
 		"version": "m:1.5.4",
-		"date": "2017-12-23"
+		"content": [
+			"''(iOS) Fixed bug with unlocking achievements''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2017-12-20",
 		"version": "1.5.3",
-		"date": "2017-12-20"
+		"content": [
+			"2 new songs added to [[Arcaea]]:",
+			"*[[Reinvent]] / Sound Souler",
+			"*[[Syro]] / mitomoro",
+			"[[Achievements]] added",
+			"''Fixed BGM issues''",
+			"''Improved Arc note response visuals''",
+			"''(iOS) Fixed a problem related to tap inputs in iOS 11''",
+			"(iOS) Added support for 120 FPS (2nd-gen iPad Pro only)"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2017-11-24",
 		"version": "1.5.2",
-		"date": "2017-11-24"
+		"content": [
+			"New Collaboration Pack released: [[Stellights Collaboration]]:",
+			"*[[Surrender]] / void",
+			"*[[Yosakura Fubuki]] / A.SAKA",
+			"New Limited Partner: [[Stella]]",
+			"Cooldown time for Fragment/Memory stamina recovery in [[World Mode]] reduced from 3 days to 2 days",
+			"Changed certain UI elements",
+			"*Changed the song pack selection screen to display packs by category",
+			"''Fixed certain bugs''",
+			"''Fixed the bug where retrying [[Axium Crisis]] to get [[Grievous Lady]] to appear would crash the application''"
+		],
+		"type": "collab",
+		"name": "Stellights Colaboration",
+		"short": "Stl"
 	},
 	{
+		"date": "2017-11-07",
 		"version": "m:1.5.1",
-		"date": "2017-11-07"
+		"content": [
+			"''Fixed bugs occurring in v1.5.0''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2017-11-03",
 		"version": "1.5.0",
-		"date": "2017-11-03"
+		"content": [
+			"[[World Mode]] feature added",
+			"New Main Story Pack released: [[Vicious Labyrinth]]:",
+			"*[[Iconoclast]] / Yamajet",
+			"*[[SOUNDWiTCH]] / HATE",
+			"*[[trappola bewitching]] / gmtn.",
+			"*[[conflict]] / siromaru + cranky",
+			"*[[Axium Crisis]] / ak+q",
+			"*[[Grievous Lady]] / Team Grimoire vs Laur",
+			"2 new Story Partners added:",
+			"*[[Tairitsu (Axium)]]",
+			"*[[Tairitsu (Grievous Lady)]]",
+			"[[Partners|Partner]] skills added",
+			"3 new songs added to [[Arcaea]]:",
+			"*[[One Last Drive]] / REDSHiFT",
+			"*[[Dreamin' Attraction!!]] / Isuka Hino",
+			"*[[Red and Blue]] / Silentroom",
+			"''Level revised for 3 songs:''",
+			"*''Anökumene (Future) 8 → 9''",
+			"*''Dandelion (Present) 5 → 6''",
+			"*''Qualia ~ideaesthesia~ (Past) 4 → 5''"
+		],
+		"type": "main",
+		"name": "Vicious Labyrinth",
+		"short": "VL"
 	},
 	{
+		"date": "2017-09-25",
 		"version": "1.1.6",
-		"date": "2017-09-25"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Rabbit In The Black Room]] / Rabbit House",
+			"New song added to [[Memory Archive]]:",
+			"*[[Modelista]] / HiTECH NINJA",
+			"Korean language supported"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2017-08-10",
 		"version": "1.1.4",
-		"date": "2017-08-10"
+		"content": [
+			"New Side Story Pack released: [[Ambivalent Vision]]",
+			"*[[Blossoms]] / T2Kazuya",
+			"*[[Romance Wars]] / U-ske (feat. lueur)",
+			"*[[Moonheart]] / 翡乃イスカ",
+			"*[[Genesis]] / Iris",
+			"*[[Lethaeus]] / Silentroom",
+			"New Side Story Partner added:",
+			"*[[Lethe]]",
+			"New song added to [[Arcaea]]:",
+			"*[[Harutopia ~Utopia of Spring~]] / A-zu-ra",
+			"New song added to [[Memory Archive]]:",
+			"*[[Auxesia]] / ginkiha"
+		],
+		"type": "side",
+		"name": "Ambivalent Vision",
+		"short": "AV"
 	},
 	{
+		"date": "2017-07-17",
 		"version": "1.1.3",
-		"date": "2017-07-17"
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[Ignotus]] / ak+q",
+			"New song added to [[Memory Archive]]:",
+			"*[[Impure Bird]] / MIssionary",
+			"Friends limit increased to 10"
+		]
 	},
 	{
+		"date": "2017-06-23",
 		"version": "1.1.2",
-		"date": "2017-06-23"
+		"content": [
+			"New Collaboration Pack released: [[Dynamix Collaboration]]:",
+			"*[[Moonlight of Sand Castle]] / 旅人E",
+			"*[[Evoltex (poppi'n mix)]] / Arch vs n3pu",
+			"*[[REconstruction]] / Ryazan",
+			"*[[Oracle]] / TQ☆",
+			"*[[αterlβus]] / Aoi",
+			"New collaboration Partner added:",
+			"*[[Sapphire]]",
+			"New song added to [[Arcaea]]:",
+			"*[[Clotho and the stargazer]] / CK",
+			"Sync function added"
+		],
+		"type": "collab",
+		"name": "Dynamix Collaboration",
+		"short": "Dnx"
 	},
 	{
+		"date": "2017-06-03",
 		"version": "m:1.1.1",
-		"date": "2017-06-03"
+		"content": [
+			"''Critical bug fixed''"
+		],
+		"type": "patch"
 	},
 	{
+		"date": "2017-06-02",
 		"version": "1.1.0",
-		"date": "2017-06-02"
+		"content": [
+			"Premium Pack released: [[Memory Archive]]:",
+			"*[[Your voice so... feat. Such]] / PSYQUI",
+			"*[[CROSS†SOUL]] / HyuN feat. Syepias",
+			"*[[DataErr0r]] / Lunatic Sounds",
+			"2 new songs added to [[Arcaea]]:",
+			"*[[Chronostasis]] / 黒皇帝",
+			"*[[Kanagawa Cyber Culvert]] / 南ゆに",
+			"[[Potential]] feature added",
+			"Sorting feature added",
+			"Added option to buy Memories in 100 Memory increments"
+		],
+		"type": "minor",
+		"name": "Memory Archive",
+		"short": "MA"
 	},
 	{
+		"date": "2017-05-11",
 		"version": "1.0.11",
-		"date": "2017-05-11"
+		"content": [
+			"New Side Story Pack released: [[Crimson Solace]]:",
+			"*[[Paradise]] / Sound Souler",
+			"*[[Flashback]] / ARForest",
+			"*[[Flyburg and Endroll]] / アリスシャッハと魔法の楽団",
+			"*[[Party Vinyl]] / モリモリあつし",
+			"*[[Nirv lucE]] / しーけー",
+			"New Side Story Partner added:",
+			"*[[Kou]]",
+			"New song added to [[Arcaea]]:",
+			"*[[Brand new world]] / U-ske"
+		],
+		"type": "side",
+		"name": "Crimson Solace",
+		"short": "CS"
 	},
 	{
+		"date": "2017-04-11",
 		"version": "1.0.10",
-		"date": "2017-04-11"
+		"content": [
+			"2 new songs added to [[Arcaea]]:",
+			"*[[Infinity Heaven]] / HyuN",
+			"*[[Anökumene]] / Jun Kuroda",
+			"Sky note-floor note simultaneous notes are now connected (\"Note Connection\" feature)",
+			"Pure, Far, Lost and note burst effects replaced",
+			"''Bug fixed''"
+		],
+		"type": "minor"
 	},
 	{
+		"date": "2017-03-19",
 		"version": "1.0.9",
-		"date": "2017-03-19"
+		"content": [
+			"2 new songs added to [[Arcaea]]:",
+			"*[[Dement ~after legend~]] / Lunatic Sounds",
+			"*[[Dandelion]] / Farhan",
+			"\"Friends\" feature added",
+			"''Bug fixed''"
+		],
+		"type": "minor"
 	},
 	{
-		"version": "1.0.8",
 		"date": "2017-03-09",
-		"type": "major",
+		"version": "1.0.8",
+		"content": [
+			"New song added to [[Arcaea]]:",
+			"*[[qualia -ideaesthesia-]] / nitro",
+			"Main Story Pack released: [[Eternal Core]]:",
+			"*[[cry of viyella]] / Laur",
+			"*[[I've heard it said]] / Combatplayer",
+			"*[[memoryfactory.lzh]] / Frums",
+			"*[[Relentless]] / Akira Complex",
+			"*[[Lumia]] / sky_delta",
+			"*[[Essence of Twilight]] / ak+q",
+			"*[[PRAGMATISM]] / Laur",
+			"*[[Sheriruth]] / Team Grimoire"
+		],
+		"type": "main",
 		"name": "Eternal Core",
 		"short": "EC"
 	},
 	{
-		"version": "1.0.5",
 		"date": "2017-03-08",
-		"type": "release",
-		"name": "Public Release",
-		"short": "Arc",
+		"version": "1.0.5",
 		"content": [
-			"Free Pack released: [[Arcaea]]",
-			"Two partners included:",
-			"- Hikari",
-			"- Tairitsu"
-		]
+			"Released to public",
+			"Free Pack released: [[Arcaea]]:",
+			"*[[GOODTEK (Arcaea Edit)]] / EBIMAYO",
+			"*[[Lost Civilization]] / Laur",
+			"*[[Babaroque]] / cYsmix",
+			"*[[Shades of Light in a Transcendent Realm]] / ak+q",
+			"*[[Snow White]] / Puru",
+			"*[[Lucifer]] / chitose",
+			"*[[Rise]] / Combatplayer",
+			"*[[Vexaria]] / ak+q",
+			"*[[Fairytale]] / chitose",
+			"*[[Sayonara Hatsukoi]] / REDSHiFT",
+			"Two Partners included:",
+			"*[[Hikari]]",
+			"*[[Tairitsu]]"
+		],
+		"type": "main",
+		"name": "Public Release",
+		"short": "Arc"
 	}
 ]
